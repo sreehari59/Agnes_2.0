@@ -159,7 +159,40 @@
       "vitamin_k2",
       "whey_protein",
       "zinc"
-    ]
+    ],
+    "regulatory_frameworks": {
+      "US": {
+        "agency": "FDA",
+        "framework": "DSHEA (Dietary Supplement Health and Education Act)",
+        "gmp_required": true,
+        "pre_market_approval": false,
+        "adverse_event_reporting": true
+      },
+      "EU": {
+        "agency": "EFSA",
+        "framework": "Food Supplements Directive 2002/46/EC",
+        "gmp_required": true,
+        "pre_market_approval": true,
+        "health_claims_regulation": "EC 1924/2006"
+      },
+      "CA": {
+        "agency": "Health Canada",
+        "framework": "Natural Health Products Regulations",
+        "gmp_required": true,
+        "npn_required": true
+      },
+      "JP": {
+        "agency": "MHLW",
+        "framework": "Food Sanitation Act",
+        "gmp_required": true
+      },
+      "CN": {
+        "agency": "SAMR/NMPA",
+        "framework": "Health Food Registration",
+        "blue_hat_required": true,
+        "pre_market_approval": true
+      }
+    }
   },
   "summary": {
     "record_count": 53,
@@ -275,6 +308,20 @@
       "up&up": 6,
       "LMNT": 1,
       "21st Century": 1
+    },
+    "hq_countries": {
+      "US": 51,
+      "AT": 1,
+      "MX": 1
+    },
+    "parent_company_countries": {
+      "IE": 6,
+      "US": 14,
+      "GB": 4,
+      "JP": 8,
+      "MX": 1,
+      "CN": 2,
+      "DE": 1
     }
   },
   "records": [
@@ -308,7 +355,24 @@
         "Gluten-Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Downers Grove",
+        "parent_company": "Glanbia plc",
+        "parent_hq_country": "IE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "UK"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-walmart-17338669408",
@@ -350,7 +414,24 @@
         "Organic"
       ],
       "raw_ingredients_raw": "Ingredients",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     },
     {
       "sku": "FG-walmart-10325038",
@@ -376,7 +457,25 @@
       "raw_brand": null,
       "raw_dietary_claims": [],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Arkansas",
+        "hq_city": "Bentonville",
+        "parent_company": "Walmart Inc.",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US",
+          "CA"
+        ],
+        "notes": "Contract manufactured by various suppliers including Perrigo"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-walmart-17018124",
@@ -402,7 +501,23 @@
       "raw_brand": null,
       "raw_dietary_claims": [],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Abbott Park",
+        "parent_company": "Abbott Laboratories",
+        "parent_hq_country": "US",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-walmart-17324942",
@@ -428,7 +543,25 @@
       "raw_brand": null,
       "raw_dietary_claims": [],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Arkansas",
+        "hq_city": "Bentonville",
+        "parent_company": "Walmart Inc.",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US",
+          "CA"
+        ],
+        "notes": "Contract manufactured by various suppliers including Perrigo"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-walmart-867413342",
@@ -472,7 +605,25 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": "Smooth blending : Blends well with frozen ingredients.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "AT",
+        "hq_state": "Vienna",
+        "hq_city": "Vienna",
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "independent",
+        "manufacturing_countries": [
+          "AT",
+          "DE"
+        ],
+        "notes": "Austrian company, EU manufacturing"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-walmart-270357039",
@@ -514,7 +665,23 @@
         "Dairy-Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "El Segundo",
+        "parent_company": "Unilever",
+        "parent_hq_country": "GB",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-walmart-40775783",
@@ -546,7 +713,25 @@
         "Gluten-Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Arkansas",
+        "hq_city": "Bentonville",
+        "parent_company": "Walmart Inc.",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US",
+          "CA"
+        ],
+        "notes": "Contract manufactured by various suppliers including Perrigo"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-walmart-19758123",
@@ -588,7 +773,24 @@
         "Dairy Free"
       ],
       "raw_ingredients_raw": "Consistent ingredients : Made with reliable and trustworthy materials.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Arkansas",
+        "hq_city": "Bentonville",
+        "parent_company": "Walmart Inc.",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Walmart private label for vitamins/supplements"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-walmart-398189644",
@@ -629,7 +831,23 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
     },
     {
       "sku": "FG-walmart-945235241",
@@ -669,7 +887,23 @@
         "Gluten-Free"
       ],
       "raw_ingredients_raw": "Diet-Friendly : No soy ingredients and gluten-free, suitable for various dietary needs.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "Emeryville",
+        "parent_company": "BellRing Brands",
+        "parent_hq_country": "US",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-walmart-502509842",
@@ -712,7 +946,23 @@
         "Organic"
       ],
       "raw_ingredients_raw": "Ingredients",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "New Jersey",
+        "hq_city": "Bernardsville",
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "independent",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-walmart-10324636",
@@ -738,7 +988,25 @@
       "raw_brand": null,
       "raw_dietary_claims": [],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Arkansas",
+        "hq_city": "Bentonville",
+        "parent_company": "Walmart Inc.",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US",
+          "CA"
+        ],
+        "notes": "Contract manufactured by various suppliers including Perrigo"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-walmart-109808244",
@@ -770,7 +1038,25 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "Watsonville",
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "independent",
+        "manufacturing_countries": [
+          "US",
+          "NO"
+        ],
+        "notes": "Norwegian fish oil sourcing"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-walmart-143538101",
@@ -808,7 +1094,23 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
     },
     {
       "sku": "FG-walmart-970963212",
@@ -844,7 +1146,23 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "New Jersey",
+        "hq_city": "Madison",
+        "parent_company": "Haleon (GSK spinoff)",
+        "parent_hq_country": "GB",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
     },
     {
       "sku": "FG-walmart-36280067",
@@ -881,7 +1199,23 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
     },
     {
       "sku": "FG-walmart-3170683942",
@@ -915,7 +1249,23 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
     },
     {
       "sku": "FG-amazon-b0002wrqy4",
@@ -987,7 +1337,24 @@
         "Dairy Free"
       ],
       "raw_ingredients_raw": "Important information Safety Information Do not use if safety seal is broken or missing. Keep out of reach of children. Keep your licensed health care practitioner informed when using this product. Use this product as a food supplement only. Do not use for weight reduction. Indications A daily multivitamin & mineral supplement. Ingredients Rice Protein, Rice Bran, Ascorbic Acid, Calcium Carbonate Proteinate, Calcium Phosphate Proteinate, Lemon Bioflavonoid Complex, Magnesium Carbonate Proteinate, Potassium Citrate Proteinate, Soy Lecithin, D-alpha Tocopheryl Succinate, Potassium Alginate, Choline Bitartrate, D-Calcium Pantothenate, Niacinamide, Inositol, Zinc Oxide Proteinate, Beta Carotene, Pyridoxine Hci, Thiamine Hci, Riboflavin, Para Amino Benzoic Acid, Rutin, Cyanocobalamin, Hesperidin Complex, Vitamin A Palmitate, Manganese Directions Use only as directed. For best results, shake or blend one heaping tablespoon (15g) of powder with 8 oz. (250mL) of water, juice or your favorite beverage. Keep in a cool, dry place. Legal Disclaimer These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     },
     {
       "sku": "FG-amazon-b012t9ga6c",
@@ -1032,7 +1399,24 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": "Important information Ingredients Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Whey Peptides), Cocoa (Processed with Alkali), Lecithin, Natural and Artificial Flavor, Acesulfame Potassium, Lactase. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Downers Grove",
+        "parent_company": "Glanbia plc",
+        "parent_hq_country": "IE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "UK"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-amazon-b0fts2jxgw",
@@ -1066,7 +1450,25 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "MX",
+        "hq_state": "Jalisco",
+        "hq_city": "Guadalajara",
+        "parent_company": "Laboratorios PiSA",
+        "parent_hq_country": "MX",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "MX",
+          "US"
+        ],
+        "notes": "Mexican origin, expanding in US market"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-amazon-b0d4625jds",
@@ -1110,7 +1512,24 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": "Important information Safety Information For Adult Use Only: Consult a healthcare professional before use, especially if pregnant, nursing, taking medication, or having a medical condition. Ingredients Magnesium (from Magnesium Oxide, Magnesium Malate, Magnesium Citrate, Magnesium Glycinate). Other Ingredients: Hydroxypropyl, Methylcellulose, Dicalcium Phosphate, Microcystalline Cellulose, Silica, Vegetable Magnesium Stearate Directions Take 2 capsules a day with full glass of water. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     },
     {
       "sku": "FG-amazon-b09hjv7xjs",
@@ -1147,7 +1566,23 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": "Important information Ingredients TAKE ONE TABLET DAILY WITH FOOD Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "New Jersey",
+        "hq_city": "Madison",
+        "parent_company": "Haleon (GSK spinoff)",
+        "parent_hq_country": "GB",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
     },
     {
       "sku": "FG-amazon-b0gh94rpd9",
@@ -1196,7 +1631,24 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     },
     {
       "sku": "FG-amazon-b07z2x2xtc",
@@ -1238,7 +1690,24 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": "Important information Ingredients FiberSMART (soluble non-gmo project verified corn fiber), Calcium Carbonate, Magnesium Hydroxide, Potassium Hydroxide, Potassium Bicarbonate, Dicalcium Phosphate, Sea Minerals Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     },
     {
       "sku": "FG-amazon-b07mg7bxrt",
@@ -1288,7 +1757,24 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": "Important information Safety Information This product is labelled to United States standards and may differ from similar products sold elsewhere in its ingredients, labeling and allergen warnings Ingredients Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Hydrolyzed Whey Protein), Cocoa Powder (Processed with Alkali), Natural and Artificial Flavor, Sunflower and/or Soy Lecithin, Creamer (Sunflower Oil, Maltodextrin, Modified Food Starch, Dipotassium Phosphate, Tricalcium Phosphate, Tocopherols), Salt, Acesulfame Potassium, Sucralose. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Downers Grove",
+        "parent_company": "Glanbia plc",
+        "parent_hq_country": "IE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "UK"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-amazon-b0ghwg73j4",
@@ -1334,7 +1820,24 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": "Important information Ingredients Citric Acid, Natural Flavor, Pink Himalayan Salt, Potassium Phosphate, calcium citrate, Magnesium Citrate, Potassium Citrate, Vitamin C (Calcium Ascorbate), Vegetable Juice Powder (For Color), Sucralose, Stevia Leaf Extract, Silicon Dioxide, Zinc Chelate, Manganese Chelate, Vitamin B6 (Pyridoxine HCL), Vitamin B12 (Cyanocobalamin). Directions 2 scoops can be used for 16 to 40oz of water. Use in 16oz of water for a sweet, bold flavor and in 40oz for a more subtle flavor. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     },
     {
       "sku": "FG-amazon-b007vwbm2u",
@@ -1381,7 +1884,23 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Florida",
+        "hq_city": "Boca Raton",
+        "parent_company": "Kroger Co.",
+        "parent_hq_country": "US",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-amazon-b0ft5z9k9n",
@@ -1419,7 +1938,24 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     },
     {
       "sku": "FG-amazon-b07dlflsyp",
@@ -1472,7 +2008,24 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": "Important information Safety Information This product is intended for general food use only and is not intended to diagnose, treat, cure, or prevent any condition. Not recommended as a sole source of nutrition or for weight reduction. Store in a cool, dry place. Contents are packaged by weight, not volume; settling may occur during shipping or handling. Ingredients Organic Whey Protein Concentrate, Organic Sunflower Lecithin. Directions Use as directed on the packaging. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     },
     {
       "sku": "FG-amazon-b0dmzfympv",
@@ -1512,7 +2065,24 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     },
     {
       "sku": "FG-amazon-b016mrfr8y",
@@ -1538,7 +2108,24 @@
       "raw_brand": "Premier Lif",
       "raw_dietary_claims": [],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     },
     {
       "sku": "FG-amazon-b0cn51242z",
@@ -1585,7 +2172,24 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": "Important information Ingredients Whey Protein Isolate, Collagen Peptides, BCAA, Vitamin B6, Vitamin D, Vitamin K, Calcium, Potassium, Phosphorus, Magnesium, Pretease, Papain, Lactae, Bromelain, Alanine, Arginine, Aspartic Acid, Cysteine, Glutamic Acid, Glycine, Histidine, Hydroxyproline, Idoleucine, Leucine, Lysine, Methionine, Phenylalanine, Proline, Serine, Throenine, Tyrosine, Valine Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     },
     {
       "sku": "FG-gnc-145223",
@@ -1638,7 +2242,25 @@
         "Dairy Free"
       ],
       "raw_ingredients_raw": "Vitamins & Supplements Vitamins & Supplements Close menu Vitamins & Supplements Multivitamins Multivitamins for Men Multivitamins for Women Multivitamins for Children Gummy Multivitamins Prenatal Multivitamins Vitapak Programs Fish Oil & Omegas Supplements Coenzyme Q-10 NMN & NAD Melatonin Resveratrol Testosterone Booster All Other Supplements Letter Vitamins Vitamin A Supplements Vitamin B Supplements Vitamin C Supplement Vitamin D Supplement Vitamin E Supplement Vitamin K Supplement Joint Support Supplements Sexual Health Children's Vitamins & Supplements Minerals Calcium Magnesium Potassium Iron Chromium Copper Selenium Zinc Antioxidants Vitamin Accessories By Concern Healthy Aging Heart Health Joint Support Men's Health Sleep Solutions Women's Health Featured NEW Vitamins & Supplements GNC Multivitamins Immune Support FSA and HSA Eligible GNC Products Sale Shop All\nVitamins & Supplements",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Pennsylvania",
+        "hq_city": "Pittsburgh",
+        "parent_company": "Harbin Pharmaceutical Group",
+        "parent_hq_country": "CN",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "CN"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false,
+        "notes": "Chinese state-owned parent; subject to CFIUS scrutiny"
+      }
     },
     {
       "sku": "FG-gnc-136813",
@@ -1692,7 +2314,25 @@
         "Dairy Free"
       ],
       "raw_ingredients_raw": "Vitamins & Supplements Vitamins & Supplements Close menu Vitamins & Supplements Multivitamins Multivitamins for Men Multivitamins for Women Multivitamins for Children Gummy Multivitamins Prenatal Multivitamins Vitapak Programs Fish Oil & Omegas Supplements Coenzyme Q-10 NMN & NAD Melatonin Resveratrol Testosterone Booster All Other Supplements Letter Vitamins Vitamin A Supplements Vitamin B Supplements Vitamin C Supplement Vitamin D Supplement Vitamin E Supplement Vitamin K Supplement Joint Support Supplements Sexual Health Children's Vitamins & Supplements Minerals Calcium Magnesium Potassium Iron Chromium Copper Selenium Zinc Antioxidants Vitamin Accessories By Concern Healthy Aging Heart Health Joint Support Men's Health Sleep Solutions Women's Health Featured NEW Vitamins & Supplements GNC Multivitamins Immune Support FSA and HSA Eligible GNC Products Sale Shop All\nVitamins & Supplements",
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Pennsylvania",
+        "hq_city": "Pittsburgh",
+        "parent_company": "Harbin Pharmaceutical Group",
+        "parent_hq_country": "CN",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "CN"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false,
+        "notes": "Chinese state-owned parent; subject to CFIUS scrutiny"
+      }
     },
     {
       "sku": "FG-target-a-10996455",
@@ -1718,7 +2358,23 @@
       "raw_brand": null,
       "raw_dietary_claims": [],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "New Jersey",
+        "hq_city": "Whippany",
+        "parent_company": "Bayer AG",
+        "parent_hq_country": "DE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-target-a-14161820",
@@ -1753,7 +2409,23 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
     },
     {
       "sku": "FG-target-a-78807252",
@@ -1787,7 +2459,24 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Downers Grove",
+        "parent_company": "Glanbia plc",
+        "parent_hq_country": "IE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "UK"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-target-a-90043361",
@@ -1813,7 +2502,24 @@
       "raw_brand": null,
       "raw_dietary_claims": [],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Minnesota",
+        "hq_city": "Minneapolis",
+        "parent_company": "Target Corporation",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Target private label"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-target-a-94645860",
@@ -1848,7 +2554,24 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Minnesota",
+        "hq_city": "Minneapolis",
+        "parent_company": "Target Corporation",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Target private label"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-target-a-14364963",
@@ -1883,7 +2606,24 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Minnesota",
+        "hq_city": "Minneapolis",
+        "parent_company": "Target Corporation",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Target private label"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-target-a-91641244",
@@ -1917,7 +2657,23 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
     },
     {
       "sku": "FG-target-a-78807251",
@@ -1949,7 +2705,24 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Downers Grove",
+        "parent_company": "Glanbia plc",
+        "parent_hq_country": "IE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "UK"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-target-a-81806945",
@@ -1985,7 +2758,23 @@
         "Non-Gmo"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "El Segundo",
+        "parent_company": "Unilever",
+        "parent_hq_country": "GB",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-target-a-91641237",
@@ -2017,7 +2806,23 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
     },
     {
       "sku": "FG-target-a-14510453",
@@ -2052,7 +2857,24 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Minnesota",
+        "hq_city": "Minneapolis",
+        "parent_company": "Target Corporation",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Target private label"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-target-a-81858337",
@@ -2088,7 +2910,23 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
     },
     {
       "sku": "FG-target-a-90043370",
@@ -2122,7 +2960,24 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Minnesota",
+        "hq_city": "Minneapolis",
+        "parent_company": "Target Corporation",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Target private label"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-target-a-94285133",
@@ -2156,7 +3011,23 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Florida",
+        "hq_city": "Naples",
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "independent",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-target-a-1006517338",
@@ -2184,7 +3055,24 @@
       "raw_brand": null,
       "raw_dietary_claims": [],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     },
     {
       "sku": "FG-target-a-90430364",
@@ -2218,7 +3106,24 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Minnesota",
+        "hq_city": "Minneapolis",
+        "parent_company": "Target Corporation",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Target private label"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-target-a-83786452",
@@ -2250,7 +3155,24 @@
         "Gluten Free"
       ],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Downers Grove",
+        "parent_company": "Glanbia plc",
+        "parent_hq_country": "IE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "UK"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
     },
     {
       "sku": "FG-target-a-1003257378",
@@ -2276,7 +3198,24 @@
       "raw_brand": null,
       "raw_dietary_claims": [],
       "raw_ingredients_raw": null,
-      "error_message": null
+      "error_message": null,
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
     }
   ]
 }
