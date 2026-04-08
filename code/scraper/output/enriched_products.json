@@ -10,9 +10,9 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:35.016224+00:00",
+    "scrape_timestamp": "2026-04-08T13:29:17.770077+00:00",
     "scrape_success": false,
-    "error_message": "Client error '403 Forbidden' for url 'https://www.iherb.com/pr/p/10421'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error_message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.iherb.com/pr/p/10421\", waiting until \"networkidle\"\n"
   },
   {
     "sku": "FG-iherb-116514",
@@ -25,9 +25,9 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:36.067011+00:00",
+    "scrape_timestamp": "2026-04-08T13:29:51.978943+00:00",
     "scrape_success": false,
-    "error_message": "Client error '403 Forbidden' for url 'https://www.iherb.com/pr/p/116514'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error_message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.iherb.com/pr/p/116514\", waiting until \"networkidle\"\n"
   },
   {
     "sku": "FG-iherb-71022",
@@ -40,9 +40,9 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:37.121238+00:00",
+    "scrape_timestamp": "2026-04-08T13:30:25.441831+00:00",
     "scrape_success": false,
-    "error_message": "Client error '403 Forbidden' for url 'https://www.iherb.com/pr/p/71022'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error_message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.iherb.com/pr/p/71022\", waiting until \"networkidle\"\n"
   },
   {
     "sku": "FG-iherb-52816",
@@ -55,9 +55,9 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:38.188175+00:00",
+    "scrape_timestamp": "2026-04-08T13:30:58.312635+00:00",
     "scrape_success": false,
-    "error_message": "Client error '403 Forbidden' for url 'https://www.iherb.com/pr/p/52816'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error_message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.iherb.com/pr/p/52816\", waiting until \"networkidle\"\n"
   },
   {
     "sku": "FG-iherb-14689",
@@ -70,9 +70,9 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:39.257739+00:00",
+    "scrape_timestamp": "2026-04-08T13:31:31.791294+00:00",
     "scrape_success": false,
-    "error_message": "Client error '403 Forbidden' for url 'https://www.iherb.com/pr/p/14689'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error_message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.iherb.com/pr/p/14689\", waiting until \"networkidle\"\n"
   },
   {
     "sku": "FG-iherb-27509",
@@ -85,9 +85,9 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:40.331728+00:00",
+    "scrape_timestamp": "2026-04-08T13:32:04.673076+00:00",
     "scrape_success": false,
-    "error_message": "Client error '403 Forbidden' for url 'https://www.iherb.com/pr/p/27509'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error_message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.iherb.com/pr/p/27509\", waiting until \"networkidle\"\n"
   },
   {
     "sku": "FG-iherb-105065",
@@ -100,9 +100,9 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:41.391362+00:00",
+    "scrape_timestamp": "2026-04-08T13:32:37.727150+00:00",
     "scrape_success": false,
-    "error_message": "Client error '403 Forbidden' for url 'https://www.iherb.com/pr/p/105065'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error_message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.iherb.com/pr/p/105065\", waiting until \"networkidle\"\n"
   },
   {
     "sku": "FG-iherb-5452",
@@ -115,9 +115,9 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:42.439106+00:00",
+    "scrape_timestamp": "2026-04-08T13:33:11.913237+00:00",
     "scrape_success": false,
-    "error_message": "Client error '403 Forbidden' for url 'https://www.iherb.com/pr/p/5452'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error_message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.iherb.com/pr/p/5452\", waiting until \"networkidle\"\n"
   },
   {
     "sku": "FG-iherb-698",
@@ -130,9 +130,9 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:43.494971+00:00",
+    "scrape_timestamp": "2026-04-08T13:33:46.089505+00:00",
     "scrape_success": false,
-    "error_message": "Client error '403 Forbidden' for url 'https://www.iherb.com/pr/p/698'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error_message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.iherb.com/pr/p/698\", waiting until \"networkidle\"\n"
   },
   {
     "sku": "FG-iherb-119107",
@@ -145,9 +145,9 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:44.582415+00:00",
+    "scrape_timestamp": "2026-04-08T13:34:19.712274+00:00",
     "scrape_success": false,
-    "error_message": "Client error '403 Forbidden' for url 'https://www.iherb.com/pr/p/119107'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error_message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.iherb.com/pr/p/119107\", waiting until \"networkidle\"\n"
   },
   {
     "sku": "FG-iherb-2582",
@@ -160,9 +160,9 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:45.650597+00:00",
+    "scrape_timestamp": "2026-04-08T13:34:52.627118+00:00",
     "scrape_success": false,
-    "error_message": "Client error '403 Forbidden' for url 'https://www.iherb.com/pr/p/2582'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error_message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.iherb.com/pr/p/2582\", waiting until \"networkidle\"\n"
   },
   {
     "sku": "FG-iherb-12222",
@@ -175,9 +175,249 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:46.721834+00:00",
+    "scrape_timestamp": "2026-04-08T13:35:26.244400+00:00",
     "scrape_success": false,
-    "error_message": "Client error '403 Forbidden' for url 'https://www.iherb.com/pr/p/12222'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error_message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.iherb.com/pr/p/12222\", waiting until \"networkidle\"\n"
+  },
+  {
+    "sku": "FG-thrive-market-671635734464",
+    "source": "thrive_upc",
+    "url": "https://world.openfoodfacts.org/product/671635734464",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:30.871119+00:00",
+    "scrape_success": false,
+    "error_message": "UPC 671635734464 not found in Open Food Facts"
+  },
+  {
+    "sku": "FG-thrive-market-thrive-market-organic-whey-protein-vanilla",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:thrive-market-organic-whey-protein-vanilla",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:31.372608+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
+  },
+  {
+    "sku": "FG-thrive-market-cure-hydration-electrolyte-drink-mix-jar-berry-pomegranate",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:cure-hydration-electrolyte-drink-mix-jar-berry-pomegranate",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:31.372750+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
+  },
+  {
+    "sku": "FG-thrive-market-thorne-vitamin-d-5-000",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:thorne-vitamin-d-5-000",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:31.372797+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
+  },
+  {
+    "sku": "FG-thrive-market-jarrow-formulas-vitamin-d3-supplement",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:jarrow-formulas-vitamin-d3-supplement",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:31.372826+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
+  },
+  {
+    "sku": "FG-thrive-market-6009804424153",
+    "source": "thrive_upc",
+    "url": "https://world.openfoodfacts.org/product/6009804424153",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:32.214816+00:00",
+    "scrape_success": false,
+    "error_message": "UPC 6009804424153 not found in Open Food Facts"
+  },
+  {
+    "sku": "FG-thrive-market-new-chapter-every-womans-one-daily-multivitamin-40-plus",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:new-chapter-every-womans-one-daily-multivitamin-40-plus",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:32.715217+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
+  },
+  {
+    "sku": "FG-thrive-market-ritual-mens-multivitamin-18",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:ritual-mens-multivitamin-18",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:32.715290+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
+  },
+  {
+    "sku": "FG-thrive-market-aloha-vanilla-protein-powder",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:aloha-vanilla-protein-powder",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:32.715305+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
+  },
+  {
+    "sku": "FG-thrive-market-ultima-replenisher-passionfruit",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:ultima-replenisher-passionfruit",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:32.715328+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
+  },
+  {
+    "sku": "FG-thrive-market-drink-lmnt-electrolyte-drink-mix-grapefruit-salt",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:drink-lmnt-electrolyte-drink-mix-grapefruit-salt",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:32.715356+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
+  },
+  {
+    "sku": "FG-thrive-market-simply-tera-s-whey-organic-whey-protein",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:simply-tera-s-whey-organic-whey-protein",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:32.715374+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
+  },
+  {
+    "sku": "FG-thrive-market-671635733788",
+    "source": "thrive_upc",
+    "url": "https://world.openfoodfacts.org/product/671635733788",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:33.111089+00:00",
+    "scrape_success": false,
+    "error_message": "UPC 671635733788 not found in Open Food Facts"
+  },
+  {
+    "sku": "FG-thrive-market-wellmade-real-food-organic-womens-multivitamin",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:wellmade-real-food-organic-womens-multivitamin",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:33.612248+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
+  },
+  {
+    "sku": "FG-thrive-market-new-chapter-mens-advanced-multivitamin",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:new-chapter-mens-advanced-multivitamin",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:33.612310+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
+  },
+  {
+    "sku": "FG-thrive-market-orgain-grass-fed-whey-protein-powder-vanilla-bean",
+    "source": "thrive_slug",
+    "url": "SEARCH:thrivemarket:orgain-grass-fed-whey-protein-powder-vanilla-bean",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:35:33.612324+00:00",
+    "scrape_success": false,
+    "error_message": "Search-based lookup not implemented"
   },
   {
     "sku": "FG-walmart-8053802024",
@@ -194,7 +434,7 @@
       "Use Post-Workout Or As A Protein Supplement Anytime   View All Item Details   Specs Primary Ingredient   Whey Protein Isolate Total Protein Per Serving   24G Cal Per Serv   130Cal Ingredient Preference   Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:49.289184+00:00",
+    "scrape_timestamp": "2026-04-08T13:35:35.227968+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -221,7 +461,7 @@
     ],
     "allergen_free_from": [],
     "ingredients_raw": "Ingredients",
-    "scrape_timestamp": "2026-04-08T11:42:52.473395+00:00",
+    "scrape_timestamp": "2026-04-08T13:35:38.669243+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -236,7 +476,7 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:55.748697+00:00",
+    "scrape_timestamp": "2026-04-08T13:35:41.718550+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -251,7 +491,7 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:42:58.705641+00:00",
+    "scrape_timestamp": "2026-04-08T13:35:45.089559+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -266,7 +506,7 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:43:01.952860+00:00",
+    "scrape_timestamp": "2026-04-08T13:35:48.662530+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -296,7 +536,7 @@
       "S Best Flavor   Vanilla Cal Per Serv   110Cal Health Concern   Muscle Growth Ingredient Preference   Gluten"
     ],
     "ingredients_raw": "Smooth blending : Blends well with frozen ingredients.",
-    "scrape_timestamp": "2026-04-08T11:43:05.471966+00:00",
+    "scrape_timestamp": "2026-04-08T13:35:51.491224+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -323,7 +563,7 @@
       "And Dairy"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:43:08.581634+00:00",
+    "scrape_timestamp": "2026-04-08T13:35:55.409321+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -342,7 +582,7 @@
       "View All Item Details   Specs Age Group   Senior Ingredient Preference   Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:43:12.350598+00:00",
+    "scrape_timestamp": "2026-04-08T13:35:59.043730+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -366,7 +606,7 @@
       "000 Iu Vitamin D3 Softgels   United States Coin Image From The United States Mint   View All Item Details   Specs Dosage   5000 Iu Medicine Strength   125 Mcg Serv Per Cont   250 Ingredient Preference   Gluten"
     ],
     "ingredients_raw": "Consistent ingredients : Made with reliable and trustworthy materials.",
-    "scrape_timestamp": "2026-04-08T11:43:15.602611+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:02.309505+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -394,7 +634,7 @@
       "Or Prevent Any Disease   View All Item Details   Specs Primary Ingredient   Magnesium Net Content Statement   200Mg Serving Size   2 Capsules Serv Per Cont   30 Ingredient Preference   Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:43:18.613680+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:05.897010+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -419,7 +659,7 @@
       "Gluten"
     ],
     "ingredients_raw": "Diet-Friendly : No soy ingredients and gluten-free, suitable for various dietary needs.",
-    "scrape_timestamp": "2026-04-08T11:43:22.009566+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:08.978720+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -446,7 +686,7 @@
       "Gluten"
     ],
     "ingredients_raw": "Ingredients",
-    "scrape_timestamp": "2026-04-08T11:43:24.918286+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:12.241751+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -460,8 +700,8 @@
     "dietary_claims": [],
     "allergen_contains": [],
     "allergen_free_from": [],
-    "ingredients_raw": "High-quality formula : Made with equivalent ingredients as name brands.",
-    "scrape_timestamp": "2026-04-08T11:43:28.114867+00:00",
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:36:15.874452+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -478,7 +718,7 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:43:31.279886+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:19.519590+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -503,7 +743,7 @@
       "Or Prevent Any Disease   View All Item Details   Specs Primary Ingredient   Magnesium Oxide Count    300 Ingredient Preference   Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:43:34.238944+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:22.744990+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -527,7 +767,7 @@
       "View All Item Details   Specs Age Group   Adult Ingredient Preference   Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:43:37.378655+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:26.068202+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -538,7 +778,9 @@
     "product_name": "Nature Made Vitamin D3 1000 IU (25 mcg) Tablets, Dietary Supplement for Bone and Immune Health Support, 350 Count",
     "brand": null,
     "certifications": [],
-    "dietary_claims": [],
+    "dietary_claims": [
+      "Non-Gmo"
+    ],
     "allergen_contains": [
       "one 350 count bottle of Nature Made Vitamins D3 1000 IU (25 mcg) Tablets for a 350-day supply   Nature Made Vitamin D 1000 IU tablets support bone health",
       "teeth health",
@@ -550,7 +792,7 @@
     ],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:43:40.734099+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:29.156856+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -571,7 +813,7 @@
       "Joint Health Ingredient Preference   Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:43:44.397921+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:32.848060+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -607,11 +849,12 @@
       "This Gluten And Lactose",
       "Men - Perfect Soy",
       "Soy",
+      "And  Has A Lot Of Vitamins  And Gluten",
       "And Has A Lot Of Vitamins And Gluten",
       "And Overall Wellness   Vegan And Dairy"
     ],
     "ingredients_raw": "Important information Safety Information Do not use if safety seal is broken or missing. Keep out of reach of children. Keep your licensed health care practitioner informed when using this product. Use this product as a food supplement only. Do not use for weight reduction. Indications A daily multivitamin & mineral supplement. Ingredients Rice Protein, Rice Bran, Ascorbic Acid, Calcium Carbonate Proteinate, Calcium Phosphate Proteinate, Lemon Bioflavonoid Complex, Magnesium Carbonate Proteinate, Potassium Citrate Proteinate, Soy Lecithin, D-alpha Tocopheryl Succinate, Potassium Alginate, Choline Bitartrate, D-Calcium Pantothenate, Niacinamide, Inositol, Zinc Oxide Proteinate, Beta Carotene, Pyridoxine Hci, Thiamine Hci, Riboflavin, Para Amino Benzoic Acid, Rutin, Cyanocobalamin, Hesperidin Complex, Vitamin A Palmitate, Manganese Directions Use only as directed. For best results, shake or blend one heaping tablespoon (15g) of powder with 8 oz. (250mL) of water, juice or your favorite beverage. Keep in a cool, dry place. Legal Disclaimer These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:43:47.680531+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:36.200177+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -642,7 +885,7 @@
       "6 Out Of 5 Stars               User Guide           Recommended Uses For Product     Muscle Build         Allergen Information     Gluten"
     ],
     "ingredients_raw": "Important information Ingredients Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Whey Peptides), Cocoa (Processed with Alkali), Lecithin, Natural and Artificial Flavor, Acesulfame Potassium, Lactase. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:43:51.296856+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:40.174842+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -665,7 +908,7 @@
       "Gluten"
     ],
     "ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:43:54.872537+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:43.835336+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -679,7 +922,6 @@
       "Amazon's  Choice",
       "Small Business",
       "Amazon's Choice",
-      "-33%",
       "5 out of 5 stars"
     ],
     "dietary_claims": [
@@ -692,7 +934,7 @@
       "Gluten"
     ],
     "ingredients_raw": "Important information Safety Information For Adult Use Only: Consult a healthcare professional before use, especially if pregnant, nursing, taking medication, or having a medical condition. Ingredients Magnesium (from Magnesium Oxide, Magnesium Malate, Magnesium Citrate, Magnesium Glycinate). Other Ingredients: Hydroxypropyl, Methylcellulose, Dicalcium Phosphate, Microcystalline Cellulose, Silica, Vegetable Magnesium Stearate Directions Take 2 capsules a day with full glass of water. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:43:58.644438+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:47.632216+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -714,12 +956,12 @@
     "allergen_contains": [],
     "allergen_free_from": [
       "Top Highlights        \n \n         Brand       Centrum           Item Form       Capsule           Primary Supplement Type       Multivitamins           Diet Type       Gluten",
-      "Report An Issue With This Product Or Seller \n \n \n \n   \n \n \n \n   \n \n \n \n \n \n \n \n \n \n \n \n \n \n    Sponsored  \n \n \n \n \n \n   \n \n \n \n \n   \n   \n \n \n \n \n   \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n     \n \n \n \n          Brand Name     Centrum         Item Form     Capsule         Primary Supplement Type     Multivitamins         Diet Type     Gluten",
+      "Report An Issue With This Product Or Seller \n \n \n \n   \n \n \n \n \n \n \n \n \n \n   \n   \n \n \n \n \n   \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n     \n \n \n \n          Brand Name     Centrum         Item Form     Capsule         Primary Supplement Type     Multivitamins         Diet Type     Gluten",
       "Product Specifications             Item Details         Measurements         User Guide                   Item Details           Brand Name     Centrum         Item Form     Capsule         Primary Supplement Type     Multivitamins         Diet Type     Gluten",
       "Gluten"
     ],
     "ingredients_raw": "Important information Ingredients TAKE ONE TABLET DAILY WITH FOOD Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:44:02.272566+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:51.197805+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -732,7 +974,9 @@
     "certifications": [
       "Small Business",
       "1 sustainability feature",
-      "USDA Organic"
+      "USDA Organic",
+      "-6%",
+      "-20%"
     ],
     "dietary_claims": [
       "Vegan",
@@ -751,7 +995,7 @@
       "Lactose"
     ],
     "ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:44:05.978931+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:55.242402+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -775,7 +1019,7 @@
       "And Gluten"
     ],
     "ingredients_raw": "Important information Ingredients FiberSMART (soluble non-gmo project verified corn fiber), Calcium Carbonate, Magnesium Hydroxide, Potassium Hydroxide, Potassium Bicarbonate, Dicalcium Phosphate, Sea Minerals Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:44:09.567515+00:00",
+    "scrape_timestamp": "2026-04-08T13:36:58.695926+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -788,6 +1032,8 @@
     "certifications": [
       "Amazon's  Choice",
       "#1 Best Seller",
+      "-33%",
+      "-5%",
       "5 out of 5 stars"
     ],
     "dietary_claims": [
@@ -808,7 +1054,7 @@
       "Viewed In Past Week        Price     No Featured Offers Available         Other Sellers             Other Sellers            About This Item     Gluten"
     ],
     "ingredients_raw": "Important information Safety Information This product is labelled to United States standards and may differ from similar products sold elsewhere in its ingredients, labeling and allergen warnings Ingredients Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Hydrolyzed Whey Protein), Cocoa Powder (Processed with Alkali), Natural and Artificial Flavor, Sunflower and/or Soy Lecithin, Creamer (Sunflower Oil, Maltodextrin, Modified Food Starch, Dipotassium Phosphate, Tricalcium Phosphate, Tocopherols), Salt, Acesulfame Potassium, Sucralose. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:44:13.531935+00:00",
+    "scrape_timestamp": "2026-04-08T13:37:02.761055+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -833,7 +1079,7 @@
     ],
     "allergen_free_from": [],
     "ingredients_raw": "Important information Ingredients Citric Acid, Natural Flavor, Pink Himalayan Salt, Potassium Phosphate, calcium citrate, Magnesium Citrate, Potassium Citrate, Vitamin C (Calcium Ascorbate), Vegetable Juice Powder (For Color), Sucralose, Stevia Leaf Extract, Silicon Dioxide, Zinc Chelate, Manganese Chelate, Vitamin B6 (Pyridoxine HCL), Vitamin B12 (Cyanocobalamin). Directions 2 scoops can be used for 16 to 40oz of water. Use in 16oz of water for a sweet, bold flavor and in 40oz for a more subtle flavor. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:44:17.089617+00:00",
+    "scrape_timestamp": "2026-04-08T13:37:06.336387+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -844,12 +1090,14 @@
     "product_name": "Vitacost Magtein Magnesium L-Threonate -- 2010 mg - 90 Vegetarian Capsules",
     "brand": "acost Brand",
     "certifications": [
-      "-33%",
+      "Amazon's Choice",
       "1 out of 5 stars"
     ],
     "dietary_claims": [
+      "Vegan",
       "Vegetarian",
       "Gluten-Free",
+      "Gluten Free",
       "Kosher",
       "Non-Gmo"
     ],
@@ -859,10 +1107,11 @@
     ],
     "allergen_free_from": [
       "Egg",
+      "Non-Gmo And Gluten",
       "Gluten"
     ],
     "ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:44:20.714978+00:00",
+    "scrape_timestamp": "2026-04-08T13:37:09.925699+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -872,7 +1121,9 @@
     "url": "https://www.amazon.com/dp/B0FT5Z9K9N",
     "product_name": "PRIME HYDRATION+ Electrolyte Powder, Lemonade, Sugar Free Hydration Drink Mix with Potassium, Magnesium & B Vitamins to Replenish Fluids, Caffeine Free, 6 Gallon Tub, 48 SRV",
     "brand": "PRIME HYDRATION",
-    "certifications": [],
+    "certifications": [
+      "-23%"
+    ],
     "dietary_claims": [
       "Gluten-Free",
       "Gluten Free"
@@ -885,7 +1136,7 @@
       "Raspberry Lemonade Flavor- No Added Sugar Hydration Drink Mix- Gluten"
     ],
     "ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:44:24.439762+00:00",
+    "scrape_timestamp": "2026-04-08T13:37:13.806112+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -899,9 +1150,11 @@
       "Sustainability features",
       "USDA Organic",
       "1 sustainability feature",
+      "#1 Best Seller",
       "5 out of 5 stars"
     ],
     "dietary_claims": [
+      "Vegan",
       "Gluten-Free",
       "Gluten Free",
       "Kosher",
@@ -921,7 +1174,7 @@
       "Purchased Because Lactose"
     ],
     "ingredients_raw": "Important information Safety Information This product is intended for general food use only and is not intended to diagnose, treat, cure, or prevent any condition. Not recommended as a sole source of nutrition or for weight reduction. Store in a cool, dry place. Contents are packaged by weight, not volume; settling may occur during shipping or handling. Ingredients Organic Whey Protein Concentrate, Organic Sunflower Lecithin. Directions Use as directed on the packaging. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:44:28.150698+00:00",
+    "scrape_timestamp": "2026-04-08T13:37:17.446817+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -945,7 +1198,7 @@
     ],
     "allergen_free_from": [],
     "ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:44:31.882231+00:00",
+    "scrape_timestamp": "2026-04-08T13:37:21.163553+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -963,7 +1216,7 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:44:35.902342+00:00",
+    "scrape_timestamp": "2026-04-08T13:37:25.194260+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -987,12 +1240,459 @@
     ],
     "allergen_free_from": [
       "7 Out Of 5 Stars               User Guide           Recommended Uses For Product     Post-Workout         Allergen Information     Peanuts May Contain               Additional Details           Material Type",
-      "Gluten"
+      "Gluten",
+      "Fudge Brownie - Lactose"
     ],
     "ingredients_raw": "Important information Ingredients Whey Protein Isolate, Collagen Peptides, BCAA, Vitamin B6, Vitamin D, Vitamin K, Calcium, Potassium, Phosphorus, Magnesium, Pretease, Papain, Lactae, Bromelain, Alanine, Arginine, Aspartic Acid, Cysteine, Glutamic Acid, Glycine, Histidine, Hydroxyproline, Idoleucine, Leucine, Lysine, Methionine, Phenylalanine, Proline, Serine, Throenine, Tyrosine, Valine Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
-    "scrape_timestamp": "2026-04-08T11:44:39.618664+00:00",
+    "scrape_timestamp": "2026-04-08T13:37:28.797659+00:00",
     "scrape_success": true,
     "error_message": null
+  },
+  {
+    "sku": "FG-vitacost-vitacost-magnesium",
+    "source": "vitacost",
+    "url": "https://www.vitacost.com/products/vitacost-magnesium",
+    "product_name": "Access Denied",
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:37:34.376353+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-vitacost-vitacost-vitamin-d3-as-cholecalciferol",
+    "source": "vitacost",
+    "url": "https://www.vitacost.com/products/vitacost-vitamin-d3-as-cholecalciferol",
+    "product_name": "Access Denied",
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:37:40.545152+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-vitacost-vitacost-vitamin-d3-as-cholecalciferol-25-mcg-1000-iu-300-capsules",
+    "source": "vitacost",
+    "url": "https://www.vitacost.com/products/vitacost-vitamin-d3-as-cholecalciferol-25-mcg-1000-iu-300-capsules",
+    "product_name": "Access Denied",
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:37:47.194202+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-vitacost-nutricost-whey-protein-concentrate-powder-chocolate",
+    "source": "vitacost",
+    "url": "https://www.vitacost.com/products/nutricost-whey-protein-concentrate-powder-chocolate",
+    "product_name": "Access Denied",
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:37:53.100474+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-vitacost-vitacost-vitamin-d3-mini-gels",
+    "source": "vitacost",
+    "url": "https://www.vitacost.com/products/vitacost-vitamin-d3-mini-gels",
+    "product_name": "Access Denied",
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:37:59.313023+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-vitacost-vitacost-magnesium-400-mg-200-capsules",
+    "source": "vitacost",
+    "url": "https://www.vitacost.com/products/vitacost-magnesium-400-mg-200-capsules",
+    "product_name": "Access Denied",
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:38:05.789104+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-vitacost-vitacost-electrolyte-mineral-drops-low-sodium",
+    "source": "vitacost",
+    "url": "https://www.vitacost.com/products/vitacost-electrolyte-mineral-drops-low-sodium",
+    "product_name": "Access Denied",
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:38:12.565238+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-vitacost-vitacost-synergy-once-daily-multivitamin",
+    "source": "vitacost",
+    "url": "https://www.vitacost.com/products/vitacost-synergy-once-daily-multivitamin",
+    "product_name": "Access Denied",
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:38:18.010148+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-vitacost-vitacost-synergy-vitamin-d3-with-cultured-nutrients-fruits-vegetables",
+    "source": "vitacost",
+    "url": "https://www.vitacost.com/products/vitacost-synergy-vitamin-d3-with-cultured-nutrients-fruits-vegetables",
+    "product_name": "Access Denied",
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:38:24.409634+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-vitacost-vitacost-magnesium-ultra",
+    "source": "vitacost",
+    "url": "https://www.vitacost.com/products/vitacost-magnesium-ultra",
+    "product_name": "Access Denied",
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:38:30.322369+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-vitacost-cure-hydration-hydrating-electrolyte-drink-mix-ginger-turmeric",
+    "source": "vitacost",
+    "url": "https://www.vitacost.com/products/cure-hydration-hydrating-electrolyte-drink-mix-ginger-turmeric",
+    "product_name": "Access Denied",
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:38:36.208089+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-vitacost-seeking-health-optimal-electrolyte-powder-unflavored",
+    "source": "vitacost",
+    "url": "https://www.vitacost.com/products/seeking-health-optimal-electrolyte-powder-unflavored",
+    "product_name": "Access Denied",
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:38:42.675221+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-gnc-145223",
+    "source": "gnc",
+    "url": "https://www.gnc.com/products/145223.html",
+    "product_name": "Vitamin D3 Tablets - 125 mcg (5000 IU) - 180 Tablets (180 Servings)",
+    "brand": "GNC",
+    "certifications": [
+      "Best Seller"
+    ],
+    "dietary_claims": [
+      "Vegan",
+      "Gluten Free",
+      "Dairy Free"
+    ],
+    "allergen_contains": [],
+    "allergen_free_from": [
+      "Snacks\n\n\n \n \n \n \n \n \n \n \n \n \n \nProtein Bars\n \n \n \n \nHealthy Snacks\n \n \n \n \n \n \n \n \n \n\n\nMeal Replacements\n\n\n \n \n \n \n \n \n\n\nSuperfoods\n\n\n \n \n \n \n \n \n \n \n \n \n \nApple Cider Vinegar\n \n \n \n \nBeet Supplement\n \n \n \n \nBee Products\n \n \n \n \nBlack Seed Oil\n \n \n \n \nSuperfruits\n \n \n \n \n \n \n \n \n \n\n\nGreen Foods\n\n\n \n \n \n \n \n \n \n \n \n \n \nChlorella\n \n \n \n \nGreen Food Blends\n \n \n \n \nMoringa\n \n \n \n \nSpirulina\n \n \n \n \nSea Moss\n \n \n \n \n \n \n \n \n \n\n\nSpecialty Diet\n\n\n \n \n \n \n \n \n \n \n \n \n \nGluten",
+      "Highlights\n     \n \n \n \n \n \n \n                    Gluten",
+      "Lactose",
+      "Dairy",
+      "Gluten"
+    ],
+    "ingredients_raw": "Vitamins & Supplements Vitamins & Supplements Close menu Vitamins & Supplements Multivitamins Multivitamins for Men Multivitamins for Women Multivitamins for Children Gummy Multivitamins Prenatal Multivitamins Vitapak Programs Fish Oil & Omegas Supplements Coenzyme Q-10 NMN & NAD Melatonin Resveratrol Testosterone Booster All Other Supplements Letter Vitamins Vitamin A Supplements Vitamin B Supplements Vitamin C Supplement Vitamin D Supplement Vitamin E Supplement Vitamin K Supplement Joint Support Supplements Sexual Health Children's Vitamins & Supplements Minerals Calcium Magnesium Potassium Iron Chromium Copper Selenium Zinc Antioxidants Vitamin Accessories By Concern Healthy Aging Heart Health Joint Support Men's Health Sleep Solutions Women's Health Featured NEW Vitamins & Supplements GNC Multivitamins Immune Support FSA and HSA Eligible GNC Products Sale Shop All\nVitamins & Supplements",
+    "scrape_timestamp": "2026-04-08T13:38:46.412642+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-gnc-136813",
+    "source": "gnc",
+    "url": "https://www.gnc.com/products/136813.html",
+    "product_name": "Magnesium Capsules 500mg - 120 Capsules (120 Servings)",
+    "brand": "GNC",
+    "certifications": [
+      "Best Seller"
+    ],
+    "dietary_claims": [
+      "Vegan",
+      "Vegetarian",
+      "Gluten Free",
+      "Dairy Free"
+    ],
+    "allergen_contains": [],
+    "allergen_free_from": [
+      "Snacks\n\n\n \n \n \n \n \n \n \n \n \n \n \nProtein Bars\n \n \n \n \nHealthy Snacks\n \n \n \n \n \n \n \n \n \n\n\nMeal Replacements\n\n\n \n \n \n \n \n \n\n\nSuperfoods\n\n\n \n \n \n \n \n \n \n \n \n \n \nApple Cider Vinegar\n \n \n \n \nBeet Supplement\n \n \n \n \nBee Products\n \n \n \n \nBlack Seed Oil\n \n \n \n \nSuperfruits\n \n \n \n \n \n \n \n \n \n\n\nGreen Foods\n\n\n \n \n \n \n \n \n \n \n \n \n \nChlorella\n \n \n \n \nGreen Food Blends\n \n \n \n \nMoringa\n \n \n \n \nSpirulina\n \n \n \n \nSea Moss\n \n \n \n \n \n \n \n \n \n\n\nSpecialty Diet\n\n\n \n \n \n \n \n \n \n \n \n \n \nGluten",
+      "Highlights\n     \n \n \n \n \n \n \n                    Gluten",
+      "Lactose",
+      "Dairy",
+      "Soy",
+      "Gluten"
+    ],
+    "ingredients_raw": "Vitamins & Supplements Vitamins & Supplements Close menu Vitamins & Supplements Multivitamins Multivitamins for Men Multivitamins for Women Multivitamins for Children Gummy Multivitamins Prenatal Multivitamins Vitapak Programs Fish Oil & Omegas Supplements Coenzyme Q-10 NMN & NAD Melatonin Resveratrol Testosterone Booster All Other Supplements Letter Vitamins Vitamin A Supplements Vitamin B Supplements Vitamin C Supplement Vitamin D Supplement Vitamin E Supplement Vitamin K Supplement Joint Support Supplements Sexual Health Children's Vitamins & Supplements Minerals Calcium Magnesium Potassium Iron Chromium Copper Selenium Zinc Antioxidants Vitamin Accessories By Concern Healthy Aging Heart Health Joint Support Men's Health Sleep Solutions Women's Health Featured NEW Vitamins & Supplements GNC Multivitamins Immune Support FSA and HSA Eligible GNC Products Sale Shop All\nVitamins & Supplements",
+    "scrape_timestamp": "2026-04-08T13:38:49.082000+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-vs-2750",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/vs-2750",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:39:01.906619+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-vs-2824",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/vs-2824",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:39:15.936030+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-ye-7038",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/ye-7038",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:39:30.027738+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-vs-0168",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/vs-0168",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:39:43.421026+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-vs-4311",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/vs-4311",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:39:57.905889+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-vs-3115",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/vs-3115",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:40:11.909488+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-vs-3450",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/vs-3450",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:40:26.644093+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-vs-3026",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/vs-3026",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:40:41.455619+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-op-1011",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/op-1011",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:40:56.238579+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-vs-2573",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/vs-2573",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:41:10.454765+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-vs-0435",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/vs-0435",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:41:23.992489+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-vs-2453",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/vs-2453",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:41:40.610397+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-vs-1977",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/vs-1977",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:41:54.907549+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
+  },
+  {
+    "sku": "FG-the-vitamin-shoppe-op-1009",
+    "source": "vitamin_shoppe",
+    "url": "https://www.vitaminshoppe.com/p/op-1009",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:42:08.874174+00:00",
+    "scrape_success": false,
+    "error_message": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"h1\") to be visible\n"
   },
   {
     "sku": "FG-target-a-10996455",
@@ -1005,7 +1705,7 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:44:43.765665+00:00",
+    "scrape_timestamp": "2026-04-08T13:42:12.522838+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1024,7 +1724,7 @@
       "8 Out Of 5 Stars With 546 Reviews 546 6 Questions Size 180 90 180 Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:44:46.327593+00:00",
+    "scrape_timestamp": "2026-04-08T13:42:15.086631+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1032,22 +1732,16 @@
     "sku": "FG-target-a-50284728",
     "source": "target",
     "url": "https://www.target.com/p/-/A-50284728",
-    "product_name": "Magnesium Dietary Supplement Caplets - 250ct - up&up\u2122: 400mg, Gluten-Free",
+    "product_name": null,
     "brand": null,
     "certifications": [],
-    "dietary_claims": [
-      "Gluten-Free",
-      "Gluten Free"
-    ],
+    "dietary_claims": [],
     "allergen_contains": [],
-    "allergen_free_from": [
-      "Gluten",
-      "7 Out Of 5 Stars With 318 Reviews 318 2 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
-    ],
+    "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:44:48.773060+00:00",
-    "scrape_success": true,
-    "error_message": null
+    "scrape_timestamp": "2026-04-08T13:51:18.458924+00:00",
+    "scrape_success": false,
+    "error_message": ""
   },
   {
     "sku": "FG-target-a-78807252",
@@ -1064,7 +1758,7 @@
       "7 Out Of 5 Stars With 1361 Reviews 1361 16 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:44:51.349457+00:00",
+    "scrape_timestamp": "2026-04-08T13:51:21.093722+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1079,7 +1773,7 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:44:53.808308+00:00",
+    "scrape_timestamp": "2026-04-08T13:51:23.563579+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1099,7 +1793,7 @@
       "6 Out Of 5 Stars With 64 Reviews 64 7 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:44:56.374070+00:00",
+    "scrape_timestamp": "2026-04-08T13:51:26.211454+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1118,7 +1812,7 @@
       "7 Out Of 5 Stars With 1851 Reviews 1851 5 Questions Size 500 100 500 Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:44:58.908310+00:00",
+    "scrape_timestamp": "2026-04-08T13:51:28.864487+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1137,7 +1831,7 @@
       "5 Out Of 5 Stars With 83 Reviews 83 5 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:01.390387+00:00",
+    "scrape_timestamp": "2026-04-08T13:51:31.303111+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1156,7 +1850,7 @@
       "8 Out Of 5 Stars With 1040 Reviews 1040 12 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:04.127813+00:00",
+    "scrape_timestamp": "2026-04-08T13:51:33.899983+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1177,7 +1871,7 @@
       "6 Out Of 5 Stars With 767 Reviews 767 9 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:06.811220+00:00",
+    "scrape_timestamp": "2026-04-08T13:51:36.505428+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1196,7 +1890,7 @@
       "6 Out Of 5 Stars With 58 Reviews 58 1 Question Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:09.378616+00:00",
+    "scrape_timestamp": "2026-04-08T13:51:39.189724+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1215,7 +1909,7 @@
       "8 Out Of 5 Stars With 1491 Reviews 1491 4 Questions Count 100Ct 100Ct 250Ct Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:11.914996+00:00",
+    "scrape_timestamp": "2026-04-08T13:51:41.738768+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1236,7 +1930,7 @@
       "3 Out Of 5 Stars With 864 Reviews 864 22 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:14.381639+00:00",
+    "scrape_timestamp": "2026-04-08T13:51:44.101346+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1255,7 +1949,7 @@
       "2 Out Of 5 Stars With 336 Reviews 336 9 Questions Size 32Oz 32Oz 5Lb Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:17.232634+00:00",
+    "scrape_timestamp": "2026-04-08T13:51:46.771871+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1275,7 +1969,7 @@
       "6 Out Of 5 Stars With 6708 Reviews 6708 20 Questions Flavor Variety Pack Citrus Grapefruit Lemonade Orange Raspberry Variety Pack Watermelon Count 10Ct 10Ct 3Ct Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:19.700864+00:00",
+    "scrape_timestamp": "2026-04-08T13:51:49.272404+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1283,21 +1977,16 @@
     "sku": "FG-target-a-13943499",
     "source": "target",
     "url": "https://www.target.com/p/-/A-13943499",
-    "product_name": "Centrum Women Multivitamin/Multimineral Supplement Tablets - 120ct",
+    "product_name": null,
     "brand": null,
     "certifications": [],
-    "dietary_claims": [
-      "Gluten Free",
-      "Non-Gmo"
-    ],
+    "dietary_claims": [],
     "allergen_contains": [],
-    "allergen_free_from": [
-      "4 Out Of 5 Stars With 1513 Reviews 1513 7 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
-    ],
+    "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:22.256923+00:00",
-    "scrape_success": true,
-    "error_message": null
+    "scrape_timestamp": "2026-04-08T13:52:13.160198+00:00",
+    "scrape_success": false,
+    "error_message": ""
   },
   {
     "sku": "FG-target-a-1006517338",
@@ -1310,7 +1999,7 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:24.822010+00:00",
+    "scrape_timestamp": "2026-04-08T13:52:16.004008+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1329,7 +2018,7 @@
       "4 Out Of 5 Stars With 225 Reviews 225 10 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:27.173160+00:00",
+    "scrape_timestamp": "2026-04-08T13:52:18.436256+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1348,7 +2037,7 @@
       "8 Out Of 5 Stars With 872 Reviews 872 7 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
     ],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:29.844535+00:00",
+    "scrape_timestamp": "2026-04-08T13:52:21.795368+00:00",
     "scrape_success": true,
     "error_message": null
   },
@@ -1363,7 +2052,577 @@
     "allergen_contains": [],
     "allergen_free_from": [],
     "ingredients_raw": null,
-    "scrape_timestamp": "2026-04-08T11:45:32.391579+00:00",
+    "scrape_timestamp": "2026-04-08T13:52:24.362002+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-costco-11467951",
+    "source": "costco",
+    "url": "https://www.costco.com/.product.11467951.html",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:52:26.214121+00:00",
+    "scrape_success": false,
+    "error_message": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.costco.com/CatalogSearch?dept=All&keyword=11467951\nCall log:\n  - navigating to \"https://www.costco.com/CatalogSearch?dept=All&keyword=11467951\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "sku": "FG-costco-100494097",
+    "source": "costco",
+    "url": "https://www.costco.com/.product.100494097.html",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:52:31.465671+00:00",
+    "scrape_success": false,
+    "error_message": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.costco.com/CatalogSearch?dept=All&keyword=100494097\nCall log:\n  - navigating to \"https://www.costco.com/CatalogSearch?dept=All&keyword=100494097\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "sku": "FG-costco-100214136",
+    "source": "costco",
+    "url": "https://www.costco.com/.product.100214136.html",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:52:35.958629+00:00",
+    "scrape_success": false,
+    "error_message": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.costco.com/CatalogSearch?dept=All&keyword=100214136\nCall log:\n  - navigating to \"https://www.costco.com/CatalogSearch?dept=All&keyword=100214136\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "sku": "FG-costco-100851161",
+    "source": "costco",
+    "url": "https://www.costco.com/.product.100851161.html",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:52:41.694809+00:00",
+    "scrape_success": false,
+    "error_message": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.costco.com/CatalogSearch?dept=All&keyword=100851161\nCall log:\n  - navigating to \"https://www.costco.com/CatalogSearch?dept=All&keyword=100851161\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "sku": "FG-costco-11491625",
+    "source": "costco",
+    "url": "https://www.costco.com/.product.11491625.html",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:52:46.818638+00:00",
+    "scrape_success": false,
+    "error_message": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.costco.com/CatalogSearch?dept=All&keyword=11491625\nCall log:\n  - navigating to \"https://www.costco.com/CatalogSearch?dept=All&keyword=11491625\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "sku": "FG-costco-100351325",
+    "source": "costco",
+    "url": "https://www.costco.com/.product.100351325.html",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:52:52.762745+00:00",
+    "scrape_success": false,
+    "error_message": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.costco.com/CatalogSearch?dept=All&keyword=100351325\nCall log:\n  - navigating to \"https://www.costco.com/CatalogSearch?dept=All&keyword=100351325\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "sku": "FG-costco-100143268",
+    "source": "costco",
+    "url": "https://www.costco.com/.product.100143268.html",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:52:58.613536+00:00",
+    "scrape_success": false,
+    "error_message": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.costco.com/CatalogSearch?dept=All&keyword=100143268\nCall log:\n  - navigating to \"https://www.costco.com/CatalogSearch?dept=All&keyword=100143268\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "sku": "FG-costco-4000025085",
+    "source": "costco",
+    "url": "https://www.costco.com/.product.4000025085.html",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:53:04.813060+00:00",
+    "scrape_success": false,
+    "error_message": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.costco.com/CatalogSearch?dept=All&keyword=4000025085\nCall log:\n  - navigating to \"https://www.costco.com/CatalogSearch?dept=All&keyword=4000025085\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "sku": "FG-costco-11672433",
+    "source": "costco",
+    "url": "https://www.costco.com/.product.11672433.html",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:53:10.620936+00:00",
+    "scrape_success": false,
+    "error_message": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.costco.com/CatalogSearch?dept=All&keyword=11672433\nCall log:\n  - navigating to \"https://www.costco.com/CatalogSearch?dept=All&keyword=11672433\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "sku": "FG-sams-club-prod15990273",
+    "source": "sams_club",
+    "url": "https://www.samsclub.com/p/prod15990273",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:53:16.153663+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-sams-club-prod19150276",
+    "source": "sams_club",
+    "url": "https://www.samsclub.com/p/prod19150276",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:53:18.575222+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-sams-club-p03010993",
+    "source": "sams_club",
+    "url": "https://www.samsclub.com/p/p03010993",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:53:20.955718+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-sams-club-p03016382",
+    "source": "sams_club",
+    "url": "https://www.samsclub.com/p/p03016382",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:53:23.301910+00:00",
+    "scrape_success": true,
+    "error_message": null
+  },
+  {
+    "sku": "FG-walgreens-prod6083374",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=prod6083374-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:53:40.367625+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-prod6063885",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=prod6063885-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:53:56.897013+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-prod6028865",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=prod6028865-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:54:13.558392+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-prod2303851",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=prod2303851-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:54:30.092883+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-300447518",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=300447518-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:54:46.655650+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-prod6253529",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=prod6253529-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:55:03.199710+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-prod6063886",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=prod6063886-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:55:19.739994+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-300436641",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=300436641-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:55:36.292197+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-300413257",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=300413257-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:55:52.915510+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-300411121",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=300411121-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:56:09.454510+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-300425544",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=300425544-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:56:26.025604+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-300413432",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=300413432-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:56:42.585121+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-300436539",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=300436539-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:56:59.251353+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-walgreens-prod6031044",
+    "source": "walgreens",
+    "url": "https://www.walgreens.com/store/c/product/ID=prod6031044-product",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:57:16.095810+00:00",
+    "scrape_success": false,
+    "error_message": ""
+  },
+  {
+    "sku": "FG-cvs-704167",
+    "source": "cvs",
+    "url": "https://www.cvs.com/shop/productid-704167",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:57:21.562764+00:00",
+    "scrape_success": false,
+    "error_message": null
+  },
+  {
+    "sku": "FG-cvs-342300",
+    "source": "cvs",
+    "url": "https://www.cvs.com/shop/productid-342300",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:57:30.656705+00:00",
+    "scrape_success": false,
+    "error_message": null
+  },
+  {
+    "sku": "FG-cvs-246284",
+    "source": "cvs",
+    "url": "https://www.cvs.com/shop/productid-246284",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:57:38.348296+00:00",
+    "scrape_success": false,
+    "error_message": null
+  },
+  {
+    "sku": "FG-cvs-486916",
+    "source": "cvs",
+    "url": "https://www.cvs.com/shop/productid-486916",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:57:46.288682+00:00",
+    "scrape_success": false,
+    "error_message": null
+  },
+  {
+    "sku": "FG-cvs-448437",
+    "source": "cvs",
+    "url": "https://www.cvs.com/shop/productid-448437",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:57:53.674363+00:00",
+    "scrape_success": false,
+    "error_message": null
+  },
+  {
+    "sku": "FG-cvs-424495",
+    "source": "cvs",
+    "url": "https://www.cvs.com/shop/productid-424495",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:58:01.063759+00:00",
+    "scrape_success": false,
+    "error_message": null
+  },
+  {
+    "sku": "FG-cvs-880579",
+    "source": "cvs",
+    "url": "https://www.cvs.com/shop/productid-880579",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:58:08.703398+00:00",
+    "scrape_success": false,
+    "error_message": null
+  },
+  {
+    "sku": "FG-cvs-843231",
+    "source": "cvs",
+    "url": "https://www.cvs.com/shop/productid-843231",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:58:17.515686+00:00",
+    "scrape_success": false,
+    "error_message": null
+  },
+  {
+    "sku": "FG-cvs-410537",
+    "source": "cvs",
+    "url": "https://www.cvs.com/shop/productid-410537",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:58:26.672445+00:00",
+    "scrape_success": false,
+    "error_message": null
+  },
+  {
+    "sku": "FG-cvs-504105",
+    "source": "cvs",
+    "url": "https://www.cvs.com/shop/productid-504105",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:58:34.839308+00:00",
+    "scrape_success": false,
+    "error_message": null
+  },
+  {
+    "sku": "FG-sams-club-p03012212",
+    "source": "sams_club",
+    "url": "https://www.samsclub.com/p/p03012212",
+    "product_name": null,
+    "brand": null,
+    "certifications": [],
+    "dietary_claims": [],
+    "allergen_contains": [],
+    "allergen_free_from": [],
+    "ingredients_raw": null,
+    "scrape_timestamp": "2026-04-08T13:58:38.887678+00:00",
     "scrape_success": true,
     "error_message": null
   }
