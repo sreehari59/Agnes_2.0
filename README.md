@@ -1,4 +1,4 @@
-# 🧠 Agnes - AI Supply Chain Intelligence
+# 🧠 Argos - AI Supply Chain Intelligence
 
 **AI-powered decision support system for raw material sourcing in the CPG industry**
 
@@ -8,7 +8,7 @@ Built for Q-Hack × Spherecast Hackathon
 
 ## 🎯 Overview
 
-Agnes is an intelligent supply chain manager that helps CPG companies make smarter raw material sourcing decisions by:
+Argos is an intelligent supply chain manager that helps CPG companies make smarter raw material sourcing decisions by:
 
 1. **Finding substitutable ingredients** across 876 raw materials
 2. **Ensuring compliance** with dietary claims and allergen requirements
