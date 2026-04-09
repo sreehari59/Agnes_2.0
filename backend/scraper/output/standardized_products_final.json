@@ -1,0 +1,3783 @@
+{
+  "schema": {
+    "product_categories": [
+      "ashwagandha",
+      "bcaa",
+      "biotin",
+      "calcium",
+      "casein",
+      "collagen",
+      "coq10",
+      "creatine",
+      "digestive_enzyme",
+      "echinacea",
+      "elderberry",
+      "electrolyte_drink_mix",
+      "fiber",
+      "folic_acid",
+      "garlic",
+      "ginger",
+      "glucosamine_chondroitin",
+      "greens_powder",
+      "iron",
+      "magnesium",
+      "magnesium_citrate",
+      "magnesium_complex",
+      "magnesium_glycinate",
+      "magnesium_l_threonate",
+      "magnesium_oxide",
+      "magnesium_sleep",
+      "melatonin",
+      "mens_multi",
+      "multivitamin",
+      "omega_3_fish_oil",
+      "plant_protein",
+      "post_workout",
+      "potassium",
+      "pre_workout",
+      "prebiotic",
+      "prenatal",
+      "probiotic",
+      "selenium",
+      "turmeric_curcumin",
+      "vitamin_a",
+      "vitamin_b12",
+      "vitamin_b_complex",
+      "vitamin_c",
+      "vitamin_d2",
+      "vitamin_d3",
+      "vitamin_e",
+      "vitamin_k",
+      "whey_protein",
+      "womens_multi",
+      "zinc",
+      "unknown",
+      "blocked_page",
+      "scrape_failed"
+    ],
+    "dosage_forms": [
+      "capsules",
+      "chewables",
+      "gummies",
+      "liquid",
+      "lozenges",
+      "packets",
+      "powder",
+      "softgels",
+      "spray",
+      "tablets"
+    ],
+    "target_demographics": [
+      "prenatal",
+      "children",
+      "teens",
+      "adults_50_plus",
+      "women",
+      "men",
+      "unisex"
+    ],
+    "dietary_flags": [
+      "allergen_free",
+      "artificial_free",
+      "caffeine_free",
+      "dairy_free",
+      "egg_free",
+      "filler_free",
+      "gluten_free",
+      "halal",
+      "keto",
+      "kosher",
+      "low_sodium",
+      "non_gmo",
+      "nut_free",
+      "organic",
+      "paleo",
+      "preservative_free",
+      "soy_free",
+      "sugar_free",
+      "vegan",
+      "vegetarian",
+      "whole30"
+    ],
+    "ingredient_signals": [
+      "ashwagandha",
+      "bcaa",
+      "calcium",
+      "casein",
+      "cellulose",
+      "chondroitin",
+      "chromium",
+      "collagen",
+      "coq10",
+      "creatine",
+      "echinacea",
+      "elderberry",
+      "garlic",
+      "gelatin",
+      "ginger",
+      "ginseng",
+      "glucosamine",
+      "glutamine",
+      "glycine",
+      "green_tea",
+      "iodine",
+      "iron",
+      "magnesium",
+      "magnesium_citrate",
+      "magnesium_glycinate",
+      "magnesium_oxide",
+      "magnesium_stearate",
+      "maltodextrin",
+      "melatonin",
+      "omega_3",
+      "pea_protein",
+      "potassium",
+      "probiotics",
+      "rice_protein",
+      "selenium",
+      "silicon_dioxide",
+      "sodium",
+      "soy_protein",
+      "stevia",
+      "sucralose",
+      "sugar_alcohol",
+      "taurine",
+      "turmeric",
+      "vitamin_a",
+      "vitamin_b1",
+      "vitamin_b12",
+      "vitamin_b2",
+      "vitamin_b3",
+      "vitamin_b5",
+      "vitamin_b6",
+      "vitamin_b7",
+      "vitamin_b9",
+      "vitamin_c",
+      "vitamin_d2",
+      "vitamin_d3",
+      "vitamin_e",
+      "vitamin_k2",
+      "whey_protein",
+      "zinc"
+    ]
+  },
+  "summary": {
+    "record_count": 53,
+    "product_categories": {
+      "whey_protein": 11,
+      "electrolyte_drink_mix": 12,
+      "multivitamin": 5,
+      "vitamin_d3": 8,
+      "magnesium_glycinate": 4,
+      "mens_multi": 2,
+      "magnesium_oxide": 1,
+      "magnesium_complex": 1,
+      "plant_protein": 1,
+      "prebiotic": 1,
+      "magnesium_citrate": 1,
+      "magnesium_l_threonate": 1,
+      "unknown": 1,
+      "prenatal": 2,
+      "magnesium": 1,
+      "iron": 1
+    },
+    "dosage_forms": {
+      "powder": 23,
+      "tablets": 13,
+      "softgels": 5,
+      "capsules": 6
+    },
+    "target_demographics": {
+      "unisex": 45,
+      "adults_50_plus": 3,
+      "women": 3,
+      "men": 2
+    },
+    "dietary_flags": {
+      "gluten_free": 39,
+      "organic": 7,
+      "sugar_free": 5,
+      "vegetarian": 3,
+      "dairy_free": 5,
+      "non_gmo": 18,
+      "vegan": 11,
+      "artificial_free": 1,
+      "kosher": 2,
+      "caffeine_free": 1,
+      "keto": 1,
+      "soy_free": 1,
+      "low_sodium": 1
+    },
+    "certifications": {
+      "usda_organic": 3
+    },
+    "ingredient_signals": {
+      "zinc": 4,
+      "vitamin_a": 1,
+      "vitamin_b5": 1,
+      "calcium": 7,
+      "potassium": 6,
+      "vitamin_b12": 2,
+      "vitamin_b2": 1,
+      "vitamin_b3": 1,
+      "vitamin_b6": 2,
+      "vitamin_b1": 1,
+      "vitamin_c": 4,
+      "rice_protein": 1,
+      "magnesium": 5,
+      "whey_protein": 4,
+      "cellulose": 1,
+      "magnesium_citrate": 2,
+      "silicon_dioxide": 2,
+      "magnesium_stearate": 1,
+      "magnesium_oxide": 1,
+      "magnesium_glycinate": 1,
+      "vitamin_e": 1,
+      "maltodextrin": 1,
+      "sucralose": 2,
+      "stevia": 1,
+      "collagen": 1,
+      "bcaa": 1,
+      "glycine": 1,
+      "melatonin": 2,
+      "iron": 2,
+      "chromium": 2,
+      "omega_3": 2,
+      "selenium": 2
+    },
+    "brands": {
+      "Optimum Nutrition": 6,
+      "null": 2,
+      "Equate": 4,
+      "Pedialyte": 1,
+      "Women's Best": 1,
+      "Liquid I.V.": 2,
+      "Spring Valley": 1,
+      "Nature Made": 8,
+      "Premier Protein": 1,
+      "Ultima Replenisher": 1,
+      "Nordic Naturals": 1,
+      "Centrum": 2,
+      "Lifetime allOne": 1,
+      "Electrolit": 1,
+      "GreeNatr": 1,
+      "Greens First": 1,
+      "AlkemyPower": 1,
+      "TREVI": 1,
+      "Vitacost": 1,
+      "PRIME Hydration": 1,
+      "Simply Tera's": 1,
+      "PowderVitamin": 1,
+      "Premier Lif": 1,
+      "GMU Sport": 1,
+      "GNC": 2,
+      "One A Day": 1,
+      "up&up": 6,
+      "LMNT": 1,
+      "21st Century": 1
+    },
+    "pricing": {
+      "verified_count": 33,
+      "estimated_count": 17,
+      "unavailable_count": 3,
+      "category_price_ranges": {
+        "whey_protein": {
+          "min": 3.23,
+          "max": 5.48,
+          "avg": 4.424545454545455,
+          "count": 11
+        },
+        "electrolyte_drink_mix": {
+          "min": 13.52,
+          "max": 28.32,
+          "avg": 17.268181818181816,
+          "count": 11
+        },
+        "multivitamin": {
+          "min": 3.88,
+          "max": 12.49,
+          "avg": 7.064,
+          "count": 5
+        },
+        "vitamin_d3": {
+          "min": 3.59,
+          "max": 38.3,
+          "avg": 15.538749999999999,
+          "count": 8
+        },
+        "magnesium_glycinate": {
+          "min": 25.0,
+          "max": 38.3,
+          "avg": 31.65,
+          "count": 4
+        },
+        "mens_multi": {
+          "min": 4.16,
+          "max": 11.24,
+          "avg": 7.7,
+          "count": 2
+        },
+        "magnesium_oxide": {
+          "min": 38.3,
+          "max": 38.3,
+          "avg": 38.3,
+          "count": 1
+        },
+        "magnesium_complex": {
+          "min": 38.3,
+          "max": 38.3,
+          "avg": 38.3,
+          "count": 1
+        },
+        "plant_protein": {
+          "min": 5.0,
+          "max": 5.0,
+          "avg": 5.0,
+          "count": 1
+        },
+        "magnesium_citrate": {
+          "min": 12.0,
+          "max": 12.0,
+          "avg": 12.0,
+          "count": 1
+        },
+        "prenatal": {
+          "min": 12.49,
+          "max": 12.49,
+          "avg": 12.49,
+          "count": 2
+        },
+        "magnesium": {
+          "min": 38.3,
+          "max": 38.3,
+          "avg": 38.3,
+          "count": 1
+        },
+        "iron": {
+          "min": 38.3,
+          "max": 38.3,
+          "avg": 38.3,
+          "count": 1
+        }
+      }
+    },
+    "hq_countries": {
+      "US": 51,
+      "AT": 1,
+      "MX": 1
+    },
+    "parent_company_countries": {
+      "IE": 6,
+      "US": 15,
+      "GB": 4,
+      "JP": 8,
+      "MX": 1,
+      "CN": 2,
+      "DE": 1
+    }
+  },
+  "records": [
+    {
+      "sku": "FG-walmart-8053802024",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/8053802024",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Optimum Nutrition, Gold Standard 100% Whey Protein Powder, Vanilla Ice Cream, 22 Servings",
+      "product_category": "whey_protein",
+      "brand": "Optimum Nutrition",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "vanilla ice cream",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "Use Post-Workout Or As A Protein Supplement Anytime View All Item Details Specs Primary Ingredient Whey Protein Isolate Total Protein Per Serving 24G Cal Per Serv 130Cal Ingredient Preference Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "22 Servings",
+      "raw_product_name": "Optimum Nutrition, Gold Standard 100% Whey Protein Powder, Vanilla Ice Cream, 22 Servings",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten-Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 29.97,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 4.41,
+          "price_per_serving": 1.36,
+          "serving_size_g": 31
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Downers Grove",
+        "parent_company": "Glanbia plc",
+        "parent_hq_country": "IE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "UK"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-walmart-17338669408",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/17338669408",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Electrolyte Powder Drink Mix - Electrolytes Powder Packets - Sugar Free & 0 Calorie - Organic Fruit Liquid Daily Hydrate Packets for Dehydration Relief and Rehydration, Variety 16 Pack",
+      "product_category": "electrolyte_drink_mix",
+      "brand": null,
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "organic",
+        "sugar_free",
+        "vegetarian"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "4 minerals (sodium",
+        "calcium",
+        "magnesium",
+        "and zinc) and 5 nutrients (vitamin C",
+        "vitamin B6",
+        "vitamin B12",
+        "niacin",
+        "and pantothenic acid)"
+      ],
+      "allergen_free_from": [],
+      "potency": [],
+      "package_count_or_servings": null,
+      "raw_product_name": "Electrolyte Powder Drink Mix - Electrolytes Powder Packets - Sugar Free & 0 Calorie - Organic Fruit Liquid Daily Hydrate Packets for Dehydration Relief and Rehydration, Variety 16 Pack",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Vegetarian",
+        "Organic"
+      ],
+      "raw_ingredients_raw": "Ingredients",
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100g": 15.0,
+          "serving_size_g": 10,
+          "price_per_serving": 1.5
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
+    },
+    {
+      "sku": "FG-walmart-10325038",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/10325038",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Equate Complete Multivitamin 300 Count",
+      "product_category": "multivitamin",
+      "brand": "Equate",
+      "dosage_form": null,
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [],
+      "potency": [],
+      "package_count_or_servings": "300 Count",
+      "raw_product_name": "Equate Complete Multivitamin 300 Count",
+      "raw_brand": null,
+      "raw_dietary_claims": [],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 12.47,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 4.16,
+          "price_per_serving": 0.04,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Arkansas",
+        "hq_city": "Bentonville",
+        "parent_company": "Walmart Inc.",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US",
+          "CA"
+        ],
+        "notes": "Contract manufactured by various suppliers including Perrigo"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-walmart-17018124",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/17018124",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Pedialyte Electrolyte Powder, Variety Pack: Grape, Strawberry, Fruit Punch, and Apple, 8 Powder Packets",
+      "product_category": "electrolyte_drink_mix",
+      "brand": "Pedialyte",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "strawberry",
+      "ingredient_signals": [],
+      "dietary_flags": [],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [],
+      "potency": [],
+      "package_count_or_servings": null,
+      "raw_product_name": "Pedialyte Electrolyte Powder, Variety Pack: Grape, Strawberry, Fruit Punch, and Apple, 8 Powder Packets",
+      "raw_brand": null,
+      "raw_dietary_claims": [],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 10.97,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 19.59,
+          "price_per_serving": 1.37,
+          "serving_size_g": 7
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Abbott Park",
+        "parent_company": "Abbott Laboratories",
+        "parent_hq_country": "US",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-walmart-17324942",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/17324942",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Equate Active Adults 50+ Complete Multivitamin/Multimineral Supplement, 110ct",
+      "product_category": "multivitamin",
+      "brand": "Equate",
+      "dosage_form": null,
+      "target_demographic": "adults_50_plus",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [],
+      "potency": [],
+      "package_count_or_servings": "110ct",
+      "raw_product_name": "Equate Active Adults 50+ Complete Multivitamin/Multimineral Supplement, 110ct",
+      "raw_brand": null,
+      "raw_dietary_claims": [],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 7.47,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 6.79,
+          "price_per_serving": 0.07,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Arkansas",
+        "hq_city": "Bentonville",
+        "parent_company": "Walmart Inc.",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US",
+          "CA"
+        ],
+        "notes": "Contract manufactured by various suppliers including Perrigo"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-walmart-867413342",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/867413342",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Women's Best Fit Pro Premium Whey Protein Powder, Vanilla, 24g Protein, 18 oz",
+      "product_category": "whey_protein",
+      "brand": "Women's Best",
+      "dosage_form": "powder",
+      "target_demographic": "women",
+      "flavor": "vanilla",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "lecithin extracted from sunflowers Vegetarian",
+        "Gluten Free",
+        "Soy Free",
+        "and Aspartame Free New look"
+      ],
+      "allergen_free_from": [
+        "Gluten",
+        "Soy",
+        "S Best Flavor Vanilla Cal Per Serv 110Cal Health Concern Muscle Growth Ingredient Preference Gluten"
+      ],
+      "potency": [
+        "24G"
+      ],
+      "package_count_or_servings": null,
+      "raw_product_name": "Women's Best Fit Pro Premium Whey Protein Powder, Vanilla, 24g Protein, 18 oz",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Vegetarian",
+        "Gluten-Free",
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": "Smooth blending : Blends well with frozen ingredients.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": 27.97,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 5.48,
+          "price_per_serving": 1.56,
+          "serving_size_g": 28
+        }
+      },
+      "company_data": {
+        "hq_country": "AT",
+        "hq_state": "Vienna",
+        "hq_city": "Vienna",
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "independent",
+        "manufacturing_countries": [
+          "AT",
+          "DE"
+        ],
+        "notes": "Austrian company, EU manufacturing"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-walmart-270357039",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/270357039",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Liquid I.V.\u00ae Strawberry Hydration Multiplier\u00ae Powdered Electrolyte Drink Mix, 6 Count Packets",
+      "product_category": "electrolyte_drink_mix",
+      "brand": "Liquid I.V.",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "strawberry",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "dairy_free",
+        "non_gmo",
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "100% of the daily value of 4 B vitamins: B3",
+        "B5",
+        "B6 and B12"
+      ],
+      "allergen_free_from": [
+        "Gluten",
+        "Soy",
+        "And Dairy"
+      ],
+      "potency": [],
+      "package_count_or_servings": "6 Count",
+      "raw_product_name": "Liquid I.V.\u00ae Strawberry Hydration Multiplier\u00ae Powdered Electrolyte Drink Mix, 6 Count Packets",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten-Free",
+        "Non-Gmo",
+        "Dairy-Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 12.98,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 13.52,
+          "price_per_serving": 2.16,
+          "serving_size_g": 16
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "El Segundo",
+        "parent_company": "Unilever",
+        "parent_hq_country": "GB",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-walmart-40775783",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/40775783",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Equate Complete Multivitamin/Multimineral Supplement Tablets, Adults 50+, 450 Count, Compare to Centrum\u00ae Silver\u00ae Adults 50+",
+      "product_category": "multivitamin",
+      "brand": "Equate",
+      "dosage_form": "tablets",
+      "target_demographic": "adults_50_plus",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "View All Item Details Specs Age Group Senior Ingredient Preference Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "450 Count",
+      "raw_product_name": "Equate Complete Multivitamin/Multimineral Supplement Tablets, Adults 50+, 450 Count, Compare to Centrum\u00ae Silver\u00ae Adults 50+",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten-Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 17.47,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 3.88,
+          "price_per_serving": 0.04,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Arkansas",
+        "hq_city": "Bentonville",
+        "parent_company": "Walmart Inc.",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US",
+          "CA"
+        ],
+        "notes": "Contract manufactured by various suppliers including Perrigo"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-walmart-19758123",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/19758123",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Spring Valley Extra Strength Vitamin D3 Softgels, 125 mcg (5000 IU), 250 Count, Supplement for Bone and Immune Health",
+      "product_category": "vitamin_d3",
+      "brand": "Spring Valley",
+      "dosage_form": "softgels",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "dairy_free",
+        "non_gmo",
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "Gluten",
+        "And Dairy",
+        "000 Iu Vitamin D3 Softgels United States Coin Image From The United States Mint View All Item Details Specs Dosage 5000 Iu Medicine Strength 125 Mcg Serv Per Cont 250 Ingredient Preference Gluten"
+      ],
+      "potency": [
+        "125 mcg",
+        "5000 IU"
+      ],
+      "package_count_or_servings": "250 Count",
+      "raw_product_name": "Spring Valley Extra Strength Vitamin D3 Softgels, 125 mcg (5000 IU), 250 Count, Supplement for Bone and Immune Health",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten-Free",
+        "Gluten Free",
+        "Non-Gmo",
+        "Dairy Free"
+      ],
+      "raw_ingredients_raw": "Consistent ingredients : Made with reliable and trustworthy materials.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": 8.97,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 3.59,
+          "price_per_serving": 0.04,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Arkansas",
+        "hq_city": "Bentonville",
+        "parent_company": "Walmart Inc.",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Walmart private label for vitamins/supplements"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-walmart-398189644",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/398189644",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Nature Made Magnesium Glycinate 200 mg Per Serving Capsules, Dietary Supplement, 60 Count",
+      "product_category": "magnesium_glycinate",
+      "brand": "Nature Made",
+      "dosage_form": "capsules",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "bone health",
+        "heart health",
+        "nerve health Gentle on the stomach",
+        "Magnesium Glycinate helps relax the body"
+      ],
+      "allergen_free_from": [
+        "And Is A Highly Bioavailable Form Of Magnesium That Is Chelated Magnesium Helps Support The Production Of Melatonin Adults Take Two Magnesium Capsules Daily With Water And A Meal This Gluten",
+        "Or Prevent Any Disease View All Item Details Specs Primary Ingredient Magnesium Net Content Statement 200Mg Serving Size 2 Capsules Serv Per Cont 30 Ingredient Preference Gluten"
+      ],
+      "potency": [
+        "200 mg"
+      ],
+      "package_count_or_servings": "60 Count",
+      "raw_product_name": "Nature Made Magnesium Glycinate 200 mg Per Serving Capsules, Dietary Supplement, 60 Count",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten-Free",
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 22.98,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 38.3,
+          "price_per_serving": 0.77,
+          "serving_size_units": 2
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
+    },
+    {
+      "sku": "FG-walmart-945235241",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/945235241",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Premier Protein 100% Whey Protein Powder, Vanilla Milkshake, 30g Protein, 23.3 oz, 1.7 lb",
+      "product_category": "whey_protein",
+      "brand": "Premier Protein",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "vanilla milkshake",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "30g protein with all the essential amino acids",
+        "150 calories",
+        "and 1g sugar"
+      ],
+      "allergen_free_from": [
+        "No Soy Ingredients And Gluten",
+        "View All Item Details Generated By Ai Specs Total Protein Per Serving 30G Cal Per Serv 180Cal Ingredient Preference Soy",
+        "Gluten"
+      ],
+      "potency": [
+        "30G"
+      ],
+      "package_count_or_servings": null,
+      "raw_product_name": "Premier Protein 100% Whey Protein Powder, Vanilla Milkshake, 30g Protein, 23.3 oz, 1.7 lb",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten-Free"
+      ],
+      "raw_ingredients_raw": "Diet-Friendly : No soy ingredients and gluten-free, suitable for various dietary needs.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": 21.98,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 3.23,
+          "price_per_serving": 1.29,
+          "serving_size_g": 40
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "Emeryville",
+        "parent_company": "BellRing Brands",
+        "parent_hq_country": "US",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-walmart-502509842",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/502509842",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Ultima Replenisher Hydration Electrolyte Drink Mix Powder Packets, Sugar-Free Original Variety Pack, 20 Ct",
+      "product_category": "electrolyte_drink_mix",
+      "brand": "Ultima Replenisher",
+      "dosage_form": "powder",
+      "target_demographic": "women",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "organic",
+        "vegan",
+        "gluten_free",
+        "sugar_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "6 key electrolytes - Magnesium",
+        "Potassium",
+        "Calcium",
+        "Chloride",
+        "Sodium & Phosphorus"
+      ],
+      "allergen_free_from": [
+        "Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "20 Ct",
+      "raw_product_name": "Ultima Replenisher Hydration Electrolyte Drink Mix Powder Packets, Sugar-Free Original Variety Pack, 20 Ct",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Vegan",
+        "Gluten-Free",
+        "Organic"
+      ],
+      "raw_ingredients_raw": "Ingredients",
+      "error_message": null,
+      "pricing": {
+        "price_usd": 16.99,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 28.32,
+          "price_per_serving": 0.85,
+          "serving_size_g": 3
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "New Jersey",
+        "hq_city": "Bernardsville",
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "independent",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-walmart-10324636",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/10324636",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Equate One Daily Men's Multivitamin/Multimineral Supplement Tablets, 100 Count, Compare to One a Day\u00ae Men's",
+      "product_category": "mens_multi",
+      "brand": "Equate",
+      "dosage_form": "tablets",
+      "target_demographic": "men",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [],
+      "potency": [],
+      "package_count_or_servings": "100 Count",
+      "raw_product_name": "Equate One Daily Men's Multivitamin/Multimineral Supplement Tablets, 100 Count, Compare to One a Day\u00ae Men's",
+      "raw_brand": null,
+      "raw_dietary_claims": [],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 12.47,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 4.16,
+          "price_per_serving": 0.04,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Arkansas",
+        "hq_city": "Bentonville",
+        "parent_company": "Walmart Inc.",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US",
+          "CA"
+        ],
+        "notes": "Contract manufactured by various suppliers including Perrigo"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-walmart-109808244",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/109808244",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Nordic Naturals Vitamin D3 5000 IU Softgels, Supports Healthy Bones, 120 Ct",
+      "product_category": "vitamin_d3",
+      "brand": "Nordic Naturals",
+      "dosage_form": "softgels",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "non_gmo"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [],
+      "potency": [
+        "5000 IU"
+      ],
+      "package_count_or_servings": "120 Ct",
+      "raw_product_name": "Nordic Naturals Vitamin D3 5000 IU Softgels, Supports Healthy Bones, 120 Ct",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 19.95,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 16.63,
+          "price_per_serving": 0.17,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "Watsonville",
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "independent",
+        "manufacturing_countries": [
+          "US",
+          "NO"
+        ],
+        "notes": "Norwegian fish oil sourcing"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-walmart-143538101",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/143538101",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Nature Made Magnesium Oxide 250 mg Tablets, Supports Muscle Relaxation, 300 Count",
+      "product_category": "magnesium_oxide",
+      "brand": "Nature Made",
+      "dosage_form": "tablets",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "nerve"
+      ],
+      "allergen_free_from": [
+        "Heart And Bone Health Magnesium Is An Essential Mineral That Is Required For More Than 300 Enzymatic Reactions In The Body Magnesium Helps Support The Production Of Melatonin Adults Take One Nature Made 250 Mg Magnesium Tablet Daily With Water And A Meal These Magnesium Oxide 250Mg Tablets Are Gluten",
+        "Or Prevent Any Disease View All Item Details Specs Primary Ingredient Magnesium Oxide Count 300 Ingredient Preference Gluten"
+      ],
+      "potency": [
+        "250 mg"
+      ],
+      "package_count_or_servings": "300 Count",
+      "raw_product_name": "Nature Made Magnesium Oxide 250 mg Tablets, Supports Muscle Relaxation, 300 Count",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten-Free",
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 22.98,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 38.3,
+          "price_per_serving": 0.77,
+          "serving_size_units": 2
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
+    },
+    {
+      "sku": "FG-walmart-970963212",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/970963212",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Centrum Adults Multivitamin With Vitamin B & D3, Tablets, 200 Count",
+      "product_category": "vitamin_d3",
+      "brand": "Centrum",
+      "dosage_form": "tablets",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "non_gmo",
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "These Adult Multivitamins Are A Non-Gmo Multivitamin Made With Gluten",
+        "View All Item Details Specs Age Group Adult Ingredient Preference Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "200 Count",
+      "raw_product_name": "Centrum Adults Multivitamin With Vitamin B & D3, Tablets, 200 Count",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten-Free",
+        "Gluten Free",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 24.97,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 12.49,
+          "price_per_serving": 0.12,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "New Jersey",
+        "hq_city": "Madison",
+        "parent_company": "Haleon (GSK spinoff)",
+        "parent_hq_country": "GB",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
+    },
+    {
+      "sku": "FG-walmart-36280067",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/36280067",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Nature Made Vitamin D3 1000 IU (25 mcg) Tablets, Dietary Supplement for Bone and Immune Health Support, 350 Count",
+      "product_category": "vitamin_d3",
+      "brand": "Nature Made",
+      "dosage_form": "tablets",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "non_gmo"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "teeth health",
+        "muscle health",
+        "the body\u2019s preferred form of Vitamin D Adults"
+      ],
+      "allergen_free_from": [],
+      "potency": [
+        "1000 IU",
+        "25 mcg"
+      ],
+      "package_count_or_servings": "350 Count",
+      "raw_product_name": "Nature Made Vitamin D3 1000 IU (25 mcg) Tablets, Dietary Supplement for Bone and Immune Health Support, 350 Count",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 22.98,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 38.3,
+          "price_per_serving": 0.77,
+          "serving_size_units": 2
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
+    },
+    {
+      "sku": "FG-walmart-3170683942",
+      "source": "walmart",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/3170683942",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Nature Made Magnesium Complex with Vitamin D and Zinc Capsules, 60 Count",
+      "product_category": "magnesium_complex",
+      "brand": "Nature Made",
+      "dosage_form": "capsules",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "Gluten",
+        "Joint Health Ingredient Preference Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "60 Count",
+      "raw_product_name": "Nature Made Magnesium Complex with Vitamin D and Zinc Capsules, 60 Count",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten-Free",
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 22.98,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 38.3,
+          "price_per_serving": 0.77,
+          "serving_size_units": 2
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
+    },
+    {
+      "sku": "FG-amazon-b0002wrqy4",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B0002WRQY4",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Lifetime allOne Rice Base Multiple Vitamin & Mineral Powder - Daily Multivitamin Supplement, 7g Plant-Based Rice Protein Powder, Dairy Free Smoothie & Shake Mix - 2.2 lbs, 66 Servings",
+      "product_category": "plant_protein",
+      "brand": "Lifetime allOne",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [
+        "zinc",
+        "vitamin_a",
+        "vitamin_b5",
+        "calcium",
+        "potassium",
+        "vitamin_b12",
+        "vitamin_b2",
+        "vitamin_b3",
+        "vitamin_b6",
+        "vitamin_b1",
+        "vitamin_c",
+        "rice_protein",
+        "magnesium"
+      ],
+      "dietary_flags": [
+        "organic",
+        "non_gmo",
+        "gluten_free",
+        "vegan",
+        "dairy_free"
+      ],
+      "certifications": [
+        "usda_organic"
+      ],
+      "allergen_contains": [
+        "at least 95% organic material"
+      ],
+      "allergen_free_from": [
+        "Dairy",
+        "And Overall Wellness Vegan And Dairy",
+        "Care Material Features Dairy",
+        "Gluten",
+        "Lactose",
+        "This Gluten And Lactose",
+        "Men - Perfect Soy",
+        "Soy",
+        "And Has A Lot Of Vitamins And Gluten",
+        "And Has A Lot Of Vitamins And Gluten",
+        "And Overall Wellness Vegan And Dairy"
+      ],
+      "potency": [
+        "7G",
+        "15G"
+      ],
+      "package_count_or_servings": "66 Servings",
+      "raw_product_name": "Lifetime allOne Rice Base Multiple Vitamin & Mineral Powder - Daily Multivitamin Supplement, 7g Plant-Based Rice Protein Powder, Dairy Free Smoothie & Shake Mix - 2.2 lbs, 66 Servings",
+      "raw_brand": "ALL ONE",
+      "raw_dietary_claims": [
+        "Vegan",
+        "Gluten Free",
+        "Organic",
+        "Non-Gmo",
+        "Dairy-Free",
+        "Dairy Free"
+      ],
+      "raw_ingredients_raw": "Important information Safety Information Do not use if safety seal is broken or missing. Keep out of reach of children. Keep your licensed health care practitioner informed when using this product. Use this product as a food supplement only. Do not use for weight reduction. Indications A daily multivitamin & mineral supplement. Ingredients Rice Protein, Rice Bran, Ascorbic Acid, Calcium Carbonate Proteinate, Calcium Phosphate Proteinate, Lemon Bioflavonoid Complex, Magnesium Carbonate Proteinate, Potassium Citrate Proteinate, Soy Lecithin, D-alpha Tocopheryl Succinate, Potassium Alginate, Choline Bitartrate, D-Calcium Pantothenate, Niacinamide, Inositol, Zinc Oxide Proteinate, Beta Carotene, Pyridoxine Hci, Thiamine Hci, Riboflavin, Para Amino Benzoic Acid, Rutin, Cyanocobalamin, Hesperidin Complex, Vitamin A Palmitate, Manganese Directions Use only as directed. For best results, shake or blend one heaping tablespoon (15g) of powder with 8 oz. (250mL) of water, juice or your favorite beverage. Keep in a cool, dry place. Legal Disclaimer These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100g": 5.0,
+          "serving_size_g": 30,
+          "price_per_serving": 1.5
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
+    },
+    {
+      "sku": "FG-amazon-b012t9ga6c",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B012T9GA6C",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Optimum Nutrition Gold Standard 100% Whey Protein Powder, Double Rich Chocolate 10 Pound (Packaging May Vary)",
+      "product_category": "whey_protein",
+      "brand": "Optimum Nutrition",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "double rich chocolate",
+      "ingredient_signals": [
+        "whey_protein"
+      ],
+      "dietary_flags": [
+        "organic",
+        "non_gmo",
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "a high amount of cysteine (7Trusted Source)"
+      ],
+      "allergen_free_from": [
+        "Top Highlights Brand Optimum Nutrition Flavor Double Rich Chocolate Item Weight 10 Pounds Diet Type Gluten",
+        "Gluten",
+        "Report An Issue With This Product Or Seller Flavor Double Rich Chocolate Diet Type Gluten",
+        "Specs Flavor Double Rich Chocolate Diet Type Gluten",
+        "6 Out Of 5 Stars User Guide Recommended Uses For Product Muscle Build Allergen Information Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": null,
+      "raw_product_name": "Optimum Nutrition Gold Standard 100% Whey Protein Powder, Double Rich Chocolate 10 Pound (Packaging May Vary)",
+      "raw_brand": "Optimum Nutrition",
+      "raw_dietary_claims": [
+        "Gluten-Free",
+        "Gluten Free",
+        "Organic",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": "Important information Ingredients Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Whey Peptides), Cocoa (Processed with Alkali), Lecithin, Natural and Artificial Flavor, Acesulfame Potassium, Lactase. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": 29.97,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 4.41,
+          "price_per_serving": 1.36,
+          "serving_size_g": 31
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Downers Grove",
+        "parent_company": "Glanbia plc",
+        "parent_hq_country": "IE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "UK"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-amazon-b0fts2jxgw",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B0FTS2JXGW",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Electrolit Electrolytes Powder Packets, Grape 8 Pack and Lemon Lime 8 Pack",
+      "product_category": "electrolyte_drink_mix",
+      "brand": "Electrolit",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "grape",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "2 items (may ship separately)"
+      ],
+      "allergen_free_from": [
+        "Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": null,
+      "raw_product_name": "Electrolit Electrolytes Powder Packets, Grape 8 Pack and Lemon Lime 8 Pack",
+      "raw_brand": "Electroli",
+      "raw_dietary_claims": [
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": 2.28,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100ml": 0.36,
+          "price_per_serving": 2.28,
+          "serving_size_ml": 625
+        }
+      },
+      "company_data": {
+        "hq_country": "MX",
+        "hq_state": "Jalisco",
+        "hq_city": "Guadalajara",
+        "parent_company": "Laboratorios PiSA",
+        "parent_hq_country": "MX",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "MX",
+          "US"
+        ],
+        "notes": "Mexican origin, expanding in US market"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-amazon-b0d4625jds",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B0D4625JDS",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "GreeNatr Magnesium Complex Supplement - Magnesium Supplements with Glycinate, Citrate, Malate & Oxide - Magnesium Tablets for Digestion, Sleep, Heart Health, & Energy - Magnesium Vitamins 120 Counts",
+      "product_category": "magnesium_glycinate",
+      "brand": "GreeNatr",
+      "dosage_form": "tablets",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [
+        "calcium",
+        "cellulose",
+        "magnesium_citrate",
+        "silicon_dioxide",
+        "magnesium_stearate",
+        "magnesium_oxide",
+        "magnesium_glycinate"
+      ],
+      "dietary_flags": [
+        "vegan",
+        "gluten_free",
+        "non_gmo"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": null,
+      "raw_product_name": "GreeNatr Magnesium Complex Supplement - Magnesium Supplements with Glycinate, Citrate, Malate & Oxide - Magnesium Tablets for Digestion, Sleep, Heart Health, & Energy - Magnesium Vitamins 120 Counts",
+      "raw_brand": "GreeNa",
+      "raw_dietary_claims": [
+        "Vegan",
+        "Gluten-Free",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": "Important information Safety Information For Adult Use Only: Consult a healthcare professional before use, especially if pregnant, nursing, taking medication, or having a medical condition. Ingredients Magnesium (from Magnesium Oxide, Magnesium Malate, Magnesium Citrate, Magnesium Glycinate). Other Ingredients: Hydroxypropyl, Methylcellulose, Dicalcium Phosphate, Microcystalline Cellulose, Silica, Vegetable Magnesium Stearate Directions Take 2 capsules a day with full glass of water. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100_units": 25.0,
+          "serving_size_units": 2
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
+    },
+    {
+      "sku": "FG-amazon-b09hjv7xjs",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B09HJV7XJS",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Centrum Men 50+ Multivitamin Tablet Age 50 and Older 275ct",
+      "product_category": "multivitamin",
+      "brand": "Centrum",
+      "dosage_form": "tablets",
+      "target_demographic": "adults_50_plus",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "non_gmo",
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "Top Highlights Brand Centrum Item Form Capsule Primary Supplement Type Multivitamins Diet Type Gluten",
+        "Report An Issue With This Product Or Seller Brand Name Centrum Item Form Capsule Primary Supplement Type Multivitamins Diet Type Gluten",
+        "Product Specifications Item Details Measurements User Guide Item Details Brand Name Centrum Item Form Capsule Primary Supplement Type Multivitamins Diet Type Gluten",
+        "Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "275ct",
+      "raw_product_name": "Centrum Men 50+ Multivitamin Tablet Age 50 and Older 275ct",
+      "raw_brand": "Centrum",
+      "raw_dietary_claims": [
+        "Gluten Free",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": "Important information Ingredients TAKE ONE TABLET DAILY WITH FOOD Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": 24.97,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 12.49,
+          "price_per_serving": 0.12,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "New Jersey",
+        "hq_city": "Madison",
+        "parent_company": "Haleon (GSK spinoff)",
+        "parent_hq_country": "GB",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
+    },
+    {
+      "sku": "FG-amazon-b0gh94rpd9",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B0GH94RPD9",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Greens First Dream Protein Powder Whey - 20g Protein Per Serving - Hormone-Free with Prebiotics - Non-GMO - No Artificial Sweeteners/MSG/Aspartame (Strawberry Cream, 27.96 oz)",
+      "product_category": "prebiotic",
+      "brand": "Greens First",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "strawberry cream",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "organic",
+        "non_gmo",
+        "artificial_free",
+        "gluten_free",
+        "vegan"
+      ],
+      "certifications": [
+        "usda_organic"
+      ],
+      "allergen_contains": [
+        "soluble fiber (FOS) that encourages the growth of beneficial bacteria",
+        "helping to strengthen your immune system and promote healthy digestion"
+      ],
+      "allergen_free_from": [
+        "Gluten",
+        "Pea Protein - Gluten",
+        "Lactose"
+      ],
+      "potency": [
+        "20G"
+      ],
+      "package_count_or_servings": null,
+      "raw_product_name": "Greens First Dream Protein Powder Whey - 20g Protein Per Serving - Hormone-Free with Prebiotics - Non-GMO - No Artificial Sweeteners/MSG/Aspartame (Strawberry Cream, 27.96 oz)",
+      "raw_brand": "Greens Firs",
+      "raw_dietary_claims": [
+        "Vegan",
+        "Gluten-Free",
+        "Gluten Free",
+        "Organic",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": null,
+        "data_quality": "unavailable",
+        "normalized": null
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
+    },
+    {
+      "sku": "FG-amazon-b07z2x2xtc",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B07Z2X2XTC",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "AlkemyPower\u2122 Hydration Electrolyte Powder, No Sugars, Salts, Carbs, Flavors or Calories, 100% Natural, Convenient Stick Pack, 60 Count",
+      "product_category": "electrolyte_drink_mix",
+      "brand": "AlkemyPower",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [
+        "potassium",
+        "magnesium",
+        "calcium"
+      ],
+      "dietary_flags": [
+        "sugar_free",
+        "vegan",
+        "gluten_free",
+        "non_gmo"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "Non-Gmo And Gluten",
+        "And Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "60 Count",
+      "raw_product_name": "AlkemyPower\u2122 Hydration Electrolyte Powder, No Sugars, Salts, Carbs, Flavors or Calories, 100% Natural, Convenient Stick Pack, 60 Count",
+      "raw_brand": "gour LLC",
+      "raw_dietary_claims": [
+        "Vegan",
+        "Gluten Free",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": "Important information Ingredients FiberSMART (soluble non-gmo project verified corn fiber), Calcium Carbonate, Magnesium Hydroxide, Potassium Hydroxide, Potassium Bicarbonate, Dicalcium Phosphate, Sea Minerals Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100g": 15.0,
+          "serving_size_g": 10,
+          "price_per_serving": 1.5
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
+    },
+    {
+      "sku": "FG-amazon-b07mg7bxrt",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B07MG7BXRT",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Optimum Nutrition 100 % Whey Chocolate Gold Standrad, 5.64 Pound",
+      "product_category": "whey_protein",
+      "brand": "Optimum Nutrition",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "chocolate",
+      "ingredient_signals": [
+        "calcium",
+        "potassium",
+        "whey_protein",
+        "vitamin_e",
+        "maltodextrin",
+        "sucralose"
+      ],
+      "dietary_flags": [
+        "non_gmo",
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "a high amount of cysteine (7Trusted Source)"
+      ],
+      "allergen_free_from": [
+        "64 Pounds Diet Type Gluten",
+        "Protein Source Whey About This Item Gluten",
+        "Report An Issue With This Product Or Seller Sponsored Flavor Double Rich Chocolate Diet Type Gluten",
+        "Specs Flavor Double Rich Chocolate Diet Type Gluten",
+        "Gluten",
+        "Soy",
+        "Viewed In Past Week Price No Featured Offers Available Other Sellers Other Sellers About This Item Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": null,
+      "raw_product_name": "Optimum Nutrition 100 % Whey Chocolate Gold Standrad, 5.64 Pound",
+      "raw_brand": "Optimum Nutrition",
+      "raw_dietary_claims": [
+        "Gluten-Free",
+        "Gluten Free",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": "Important information Safety Information This product is labelled to United States standards and may differ from similar products sold elsewhere in its ingredients, labeling and allergen warnings Ingredients Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Hydrolyzed Whey Protein), Cocoa Powder (Processed with Alkali), Natural and Artificial Flavor, Sunflower and/or Soy Lecithin, Creamer (Sunflower Oil, Maltodextrin, Modified Food Starch, Dipotassium Phosphate, Tricalcium Phosphate, Tocopherols), Salt, Acesulfame Potassium, Sucralose. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": 29.97,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 4.41,
+          "price_per_serving": 1.36,
+          "serving_size_g": 31
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Downers Grove",
+        "parent_company": "Glanbia plc",
+        "parent_hq_country": "IE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "UK"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-amazon-b0ghwg73j4",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B0GHWG73J4",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "TREVI\u2122 Sugar Free Electrolytes - Everyday Hydration Drink Mix Hydration Powder Multi Serving Tub - 45 Serving - Sour Cherry",
+      "product_category": "magnesium_citrate",
+      "brand": "TREVI",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "sour cherry",
+      "ingredient_signals": [
+        "zinc",
+        "calcium",
+        "magnesium_citrate",
+        "silicon_dioxide",
+        "potassium",
+        "vitamin_b12",
+        "vitamin_b6",
+        "vitamin_c",
+        "stevia",
+        "sucralose"
+      ],
+      "dietary_flags": [
+        "vegan",
+        "sugar_free",
+        "non_gmo"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "several different vitamins"
+      ],
+      "allergen_free_from": [],
+      "potency": [],
+      "package_count_or_servings": "45 Serving",
+      "raw_product_name": "TREVI\u2122 Sugar Free Electrolytes - Everyday Hydration Drink Mix Hydration Powder Multi Serving Tub - 45 Serving - Sour Cherry",
+      "raw_brand": "TREVI",
+      "raw_dietary_claims": [
+        "Vegan",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": "Important information Ingredients Citric Acid, Natural Flavor, Pink Himalayan Salt, Potassium Phosphate, calcium citrate, Magnesium Citrate, Potassium Citrate, Vitamin C (Calcium Ascorbate), Vegetable Juice Powder (For Color), Sucralose, Stevia Leaf Extract, Silicon Dioxide, Zinc Chelate, Manganese Chelate, Vitamin B6 (Pyridoxine HCL), Vitamin B12 (Cyanocobalamin). Directions 2 scoops can be used for 16 to 40oz of water. Use in 16oz of water for a sweet, bold flavor and in 40oz for a more subtle flavor. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100_units": 12.0,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
+    },
+    {
+      "sku": "FG-amazon-b007vwbm2u",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B007VWBM2U",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Vitacost Magtein Magnesium L-Threonate -- 2010 mg - 90 Vegetarian Capsules",
+      "product_category": "magnesium_l_threonate",
+      "brand": "Vitacost",
+      "dosage_form": "capsules",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "non_gmo",
+        "kosher",
+        "gluten_free",
+        "vegan",
+        "vegetarian"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "efficacy and safety"
+      ],
+      "allergen_free_from": [
+        "Egg",
+        "Non-Gmo And Gluten",
+        "Gluten"
+      ],
+      "potency": [
+        "2010 mg"
+      ],
+      "package_count_or_servings": null,
+      "raw_product_name": "Vitacost Magtein Magnesium L-Threonate -- 2010 mg - 90 Vegetarian Capsules",
+      "raw_brand": "acost Brand",
+      "raw_dietary_claims": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten-Free",
+        "Gluten Free",
+        "Kosher",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": null,
+        "data_quality": "unavailable",
+        "normalized": null
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Florida",
+        "hq_city": "Boca Raton",
+        "parent_company": "Kroger Co.",
+        "parent_hq_country": "US",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-amazon-b0ft5z9k9n",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B0FT5Z9K9N",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "PRIME HYDRATION+ Electrolyte Powder, Lemonade, Sugar Free Hydration Drink Mix with Potassium, Magnesium & B Vitamins to Replenish Fluids, Caffeine Free, 6 Gallon Tub, 48 SRV",
+      "product_category": "electrolyte_drink_mix",
+      "brand": "PRIME HYDRATION+",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "lemonade",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "caffeine_free",
+        "gluten_free",
+        "sugar_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "0g of sugar and just 10 calories per serving"
+      ],
+      "allergen_free_from": [
+        "Gluten",
+        "Raspberry Lemonade Flavor- No Added Sugar Hydration Drink Mix- Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": null,
+      "raw_product_name": "PRIME HYDRATION+ Electrolyte Powder, Lemonade, Sugar Free Hydration Drink Mix with Potassium, Magnesium & B Vitamins to Replenish Fluids, Caffeine Free, 6 Gallon Tub, 48 SRV",
+      "raw_brand": "PRIME HYDRATION",
+      "raw_dietary_claims": [
+        "Gluten-Free",
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100g": 15.0,
+          "serving_size_g": 10,
+          "price_per_serving": 1.5
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Kentucky",
+        "hq_city": "Louisville",
+        "parent_company": "Congo Brands",
+        "parent_hq_country": "US",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Founded by Logan Paul and KSI"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-amazon-b07dlflsyp",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B07DLFLSYP",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Simply Teras Whey Plain Unsweeten Org 12 OZ",
+      "product_category": "whey_protein",
+      "brand": "Simply Tera's",
+      "dosage_form": null,
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [
+        "whey_protein"
+      ],
+      "dietary_flags": [
+        "organic",
+        "non_gmo",
+        "kosher",
+        "gluten_free",
+        "vegan"
+      ],
+      "certifications": [
+        "usda_organic"
+      ],
+      "allergen_contains": [
+        "at least 95% organic material"
+      ],
+      "allergen_free_from": [
+        "94 Pounds Diet Type Gluten",
+        "Report An Issue With This Product Or Seller Sponsored Flavor Plain Unsweetened Diet Type Gluten",
+        "Specs Flavor Plain Unsweetened Diet Type Gluten",
+        "Gluten",
+        "Soy",
+        "0 Out Of 5 Stars Lactose",
+        "Purchased Because Lactose"
+      ],
+      "potency": [],
+      "package_count_or_servings": null,
+      "raw_product_name": "Simply Teras Whey Plain Unsweeten Org 12 OZ",
+      "raw_brand": "mply tera's",
+      "raw_dietary_claims": [
+        "Vegan",
+        "Gluten-Free",
+        "Gluten Free",
+        "Kosher",
+        "Organic",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": "Important information Safety Information This product is intended for general food use only and is not intended to diagnose, treat, cure, or prevent any condition. Not recommended as a sole source of nutrition or for weight reduction. Store in a cool, dry place. Contents are packaged by weight, not volume; settling may occur during shipping or handling. Ingredients Organic Whey Protein Concentrate, Organic Sunflower Lecithin. Directions Use as directed on the packaging. Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100g": 4.5,
+          "serving_size_g": 30,
+          "price_per_serving": 1.35
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
+    },
+    {
+      "sku": "FG-amazon-b0dmzfympv",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B0DMZFYMPV",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "PowderVitamin Electrolytes Powder Plus (20 Servings) Grape Electrolyte Powder Zero Calorie Keto,0 Sugar, No Maltodextrin,1000mg Potassium,120mg Calcium,120mg Magnesium, Pink Himalayan Salt",
+      "product_category": "electrolyte_drink_mix",
+      "brand": "PowderVitamin",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "grape",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "organic",
+        "vegan",
+        "keto",
+        "non_gmo"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "1000 mg of potassium opposed to only 250 mg in other brands"
+      ],
+      "allergen_free_from": [],
+      "potency": [
+        "1000mg",
+        "120mg"
+      ],
+      "package_count_or_servings": "20 Servings",
+      "raw_product_name": "PowderVitamin Electrolytes Powder Plus (20 Servings) Grape Electrolyte Powder Zero Calorie Keto,0 Sugar, No Maltodextrin,1000mg Potassium,120mg Calcium,120mg Magnesium, Pink Himalayan Salt",
+      "raw_brand": "PowderVitamin",
+      "raw_dietary_claims": [
+        "Vegan",
+        "Organic",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": "Important information Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100g": 15.0,
+          "serving_size_g": 10,
+          "price_per_serving": 1.5
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
+    },
+    {
+      "sku": "FG-amazon-b016mrfr8y",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B016MRFR8Y",
+      "scrape_success": true,
+      "normalization_status": "needs_review",
+      "product_name": "Gnome Official Barcelona Large Garden, Best",
+      "product_category": "unknown",
+      "brand": "Premier Protein",
+      "dosage_form": null,
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [],
+      "potency": [],
+      "package_count_or_servings": null,
+      "raw_product_name": "Gnome Official Barcelona Large Garden, Best",
+      "raw_brand": "Premier Lif",
+      "raw_dietary_claims": [],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": null,
+        "data_quality": "unavailable",
+        "normalized": null
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
+    },
+    {
+      "sku": "FG-amazon-b0cn51242z",
+      "source": "amazon",
+      "retailer": "amazon",
+      "url": "https://www.amazon.com/dp/B0CN51242Z",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "GMU SPORT ISO Whey - 100% Whey Isolate Protein - Peanut Butter Cup 2lb, (30 Servings) - 26g Protein Per Serving Complete with a Full Amino Profile, Digestive Enzymes, BCAA's and Collagen Peptides",
+      "product_category": "whey_protein",
+      "brand": "GMU SPORT",
+      "dosage_form": null,
+      "target_demographic": "unisex",
+      "flavor": "peanut butter cup",
+      "ingredient_signals": [
+        "collagen",
+        "whey_protein",
+        "magnesium",
+        "bcaa",
+        "glycine"
+      ],
+      "dietary_flags": [
+        "non_gmo",
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [
+        "over 7g of BCAAs to fuel your workouts and enhance muscle recovery"
+      ],
+      "allergen_free_from": [
+        "7 Out Of 5 Stars User Guide Recommended Uses For Product Post-Workout Allergen Information Peanuts May Contain Additional Details Material Type",
+        "Gluten",
+        "Fudge Brownie - Lactose"
+      ],
+      "potency": [
+        "26G"
+      ],
+      "package_count_or_servings": "30 Servings",
+      "raw_product_name": "GMU SPORT ISO Whey - 100% Whey Isolate Protein - Peanut Butter Cup 2lb, (30 Servings) - 26g Protein Per Serving Complete with a Full Amino Profile, Digestive Enzymes, BCAA's and Collagen Peptides",
+      "raw_brand": "GMU SPORT",
+      "raw_dietary_claims": [
+        "Gluten-Free",
+        "Gluten Free",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": "Important information Ingredients Whey Protein Isolate, Collagen Peptides, BCAA, Vitamin B6, Vitamin D, Vitamin K, Calcium, Potassium, Phosphorus, Magnesium, Pretease, Papain, Lactae, Bromelain, Alanine, Arginine, Aspartic Acid, Cysteine, Glutamic Acid, Glycine, Histidine, Hydroxyproline, Idoleucine, Leucine, Lysine, Methionine, Phenylalanine, Proline, Serine, Throenine, Tyrosine, Valine Legal Disclaimer Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100g": 4.5,
+          "serving_size_g": 30,
+          "price_per_serving": 1.35
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
+    },
+    {
+      "sku": "FG-gnc-145223",
+      "source": "gnc",
+      "retailer": "gnc",
+      "url": "https://www.gnc.com/products/145223.html",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Vitamin D3 Tablets - 125 mcg (5000 IU) - 180 Tablets (180 Servings)",
+      "product_category": "prenatal",
+      "brand": "GNC",
+      "dosage_form": "tablets",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [
+        "zinc",
+        "calcium",
+        "potassium",
+        "melatonin",
+        "iron",
+        "vitamin_c",
+        "chromium",
+        "magnesium",
+        "omega_3",
+        "selenium"
+      ],
+      "dietary_flags": [
+        "dairy_free",
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "Snacks Protein Bars Healthy Snacks Meal Replacements Superfoods Apple Cider Vinegar Beet Supplement Bee Products Black Seed Oil Superfruits Green Foods Chlorella Green Food Blends Moringa Spirulina Sea Moss Specialty Diet Gluten",
+        "Highlights Gluten",
+        "Lactose",
+        "Dairy",
+        "Gluten"
+      ],
+      "potency": [
+        "125 mcg",
+        "5000 IU"
+      ],
+      "package_count_or_servings": "180 Servings",
+      "raw_product_name": "Vitamin D3 Tablets - 125 mcg (5000 IU) - 180 Tablets (180 Servings)",
+      "raw_brand": "GNC",
+      "raw_dietary_claims": [
+        "Vegan",
+        "Gluten Free",
+        "Dairy Free"
+      ],
+      "raw_ingredients_raw": "Vitamins & Supplements Vitamins & Supplements Close menu Vitamins & Supplements Multivitamins Multivitamins for Men Multivitamins for Women Multivitamins for Children Gummy Multivitamins Prenatal Multivitamins Vitapak Programs Fish Oil & Omegas Supplements Coenzyme Q-10 NMN & NAD Melatonin Resveratrol Testosterone Booster All Other Supplements Letter Vitamins Vitamin A Supplements Vitamin B Supplements Vitamin C Supplement Vitamin D Supplement Vitamin E Supplement Vitamin K Supplement Joint Support Supplements Sexual Health Children's Vitamins & Supplements Minerals Calcium Magnesium Potassium Iron Chromium Copper Selenium Zinc Antioxidants Vitamin Accessories By Concern Healthy Aging Heart Health Joint Support Men's Health Sleep Solutions Women's Health Featured NEW Vitamins & Supplements GNC Multivitamins Immune Support FSA and HSA Eligible GNC Products Sale Shop All\nVitamins & Supplements",
+      "error_message": null,
+      "pricing": {
+        "price_usd": 14.99,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 12.49,
+          "price_per_serving": 0.12,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Pennsylvania",
+        "hq_city": "Pittsburgh",
+        "parent_company": "Harbin Pharmaceutical Group",
+        "parent_hq_country": "CN",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "CN"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false,
+        "notes": "Chinese state-owned parent; subject to CFIUS scrutiny"
+      }
+    },
+    {
+      "sku": "FG-gnc-136813",
+      "source": "gnc",
+      "retailer": "gnc",
+      "url": "https://www.gnc.com/products/136813.html",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Magnesium Capsules 500mg - 120 Capsules (120 Servings)",
+      "product_category": "prenatal",
+      "brand": "GNC",
+      "dosage_form": "capsules",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [
+        "zinc",
+        "calcium",
+        "potassium",
+        "melatonin",
+        "iron",
+        "vitamin_c",
+        "chromium",
+        "magnesium",
+        "omega_3",
+        "selenium"
+      ],
+      "dietary_flags": [
+        "dairy_free",
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "Snacks Protein Bars Healthy Snacks Meal Replacements Superfoods Apple Cider Vinegar Beet Supplement Bee Products Black Seed Oil Superfruits Green Foods Chlorella Green Food Blends Moringa Spirulina Sea Moss Specialty Diet Gluten",
+        "Highlights Gluten",
+        "Lactose",
+        "Dairy",
+        "Soy",
+        "Gluten"
+      ],
+      "potency": [
+        "500mg"
+      ],
+      "package_count_or_servings": "120 Servings",
+      "raw_product_name": "Magnesium Capsules 500mg - 120 Capsules (120 Servings)",
+      "raw_brand": "GNC",
+      "raw_dietary_claims": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten Free",
+        "Dairy Free"
+      ],
+      "raw_ingredients_raw": "Vitamins & Supplements Vitamins & Supplements Close menu Vitamins & Supplements Multivitamins Multivitamins for Men Multivitamins for Women Multivitamins for Children Gummy Multivitamins Prenatal Multivitamins Vitapak Programs Fish Oil & Omegas Supplements Coenzyme Q-10 NMN & NAD Melatonin Resveratrol Testosterone Booster All Other Supplements Letter Vitamins Vitamin A Supplements Vitamin B Supplements Vitamin C Supplement Vitamin D Supplement Vitamin E Supplement Vitamin K Supplement Joint Support Supplements Sexual Health Children's Vitamins & Supplements Minerals Calcium Magnesium Potassium Iron Chromium Copper Selenium Zinc Antioxidants Vitamin Accessories By Concern Healthy Aging Heart Health Joint Support Men's Health Sleep Solutions Women's Health Featured NEW Vitamins & Supplements GNC Multivitamins Immune Support FSA and HSA Eligible GNC Products Sale Shop All\nVitamins & Supplements",
+      "error_message": null,
+      "pricing": {
+        "price_usd": 14.99,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 12.49,
+          "price_per_serving": 0.12,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Pennsylvania",
+        "hq_city": "Pittsburgh",
+        "parent_company": "Harbin Pharmaceutical Group",
+        "parent_hq_country": "CN",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "CN"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false,
+        "notes": "Chinese state-owned parent; subject to CFIUS scrutiny"
+      }
+    },
+    {
+      "sku": "FG-target-a-10996455",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-10996455",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "One A Day For Men's Multivitamin Dietary Supplement Tablets - 200ct",
+      "product_category": "mens_multi",
+      "brand": "One A Day",
+      "dosage_form": "tablets",
+      "target_demographic": "men",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [],
+      "potency": [],
+      "package_count_or_servings": "200ct",
+      "raw_product_name": "One A Day For Men's Multivitamin Dietary Supplement Tablets - 200ct",
+      "raw_brand": null,
+      "raw_dietary_claims": [],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 22.47,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 11.24,
+          "price_per_serving": 0.11,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "New Jersey",
+        "hq_city": "Whippany",
+        "parent_company": "Bayer AG",
+        "parent_hq_country": "DE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-14161820",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-14161820",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Nature Made Extra Strength Vitamin D3 5000 IU (125 mcg), Bone Health and Immune Support Softgels - 180ct",
+      "product_category": "vitamin_d3",
+      "brand": "Nature Made",
+      "dosage_form": "softgels",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "8 Out Of 5 Stars With 546 Reviews 546 6 Questions Size 180 90 180 Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [
+        "5000 IU",
+        "125 mcg"
+      ],
+      "package_count_or_servings": "180ct",
+      "raw_product_name": "Nature Made Extra Strength Vitamin D3 5000 IU (125 mcg), Bone Health and Immune Support Softgels - 180ct",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 22.98,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 38.3,
+          "price_per_serving": 0.77,
+          "serving_size_units": 2
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
+    },
+    {
+      "sku": "FG-target-a-78807252",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-78807252",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Optimum Nutrition Gold Standard 100% Whey Protein Powder - Double Rich Chocolate - 22 Servings - 23.59oz: High-Quality Whey Isolate, 24g Protein",
+      "product_category": "whey_protein",
+      "brand": "Optimum Nutrition",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "double rich chocolate",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "7 Out Of 5 Stars With 1361 Reviews 1361 16 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [
+        "24G"
+      ],
+      "package_count_or_servings": "22 Servings",
+      "raw_product_name": "Optimum Nutrition Gold Standard 100% Whey Protein Powder - Double Rich Chocolate - 22 Servings - 23.59oz: High-Quality Whey Isolate, 24g Protein",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 29.97,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 4.41,
+          "price_per_serving": 1.36,
+          "serving_size_g": 31
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Downers Grove",
+        "parent_company": "Glanbia plc",
+        "parent_hq_country": "IE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "UK"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-90043361",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-90043361",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Hydration with Electrolytes Drink Mix - Variety Pack - 11.3oz/20ct - up&up\u2122: Powdered, Primary Flavors Strawberry, Watermelon, Pineapple",
+      "product_category": "electrolyte_drink_mix",
+      "brand": "up&up",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "strawberry",
+      "ingredient_signals": [],
+      "dietary_flags": [],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [],
+      "potency": [],
+      "package_count_or_servings": "20ct",
+      "raw_product_name": "Hydration with Electrolytes Drink Mix - Variety Pack - 11.3oz/20ct - up&up\u2122: Powdered, Primary Flavors Strawberry, Watermelon, Pineapple",
+      "raw_brand": null,
+      "raw_dietary_claims": [],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100g": 15.0,
+          "serving_size_g": 10,
+          "price_per_serving": 1.5
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Minnesota",
+        "hq_city": "Minneapolis",
+        "parent_company": "Target Corporation",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Target private label"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-94645860",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-94645860",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Women's Daily Multivitamin Dietary Supplement Tablets - 100ct - up&up\u2122: NSF Certified, Soy-Free, Sodium Free",
+      "product_category": "multivitamin",
+      "brand": "up&up",
+      "dosage_form": "tablets",
+      "target_demographic": "women",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "soy_free",
+        "low_sodium",
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "Soy",
+        "6 Out Of 5 Stars With 64 Reviews 64 7 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "100ct",
+      "raw_product_name": "Women's Daily Multivitamin Dietary Supplement Tablets - 100ct - up&up\u2122: NSF Certified, Soy-Free, Sodium Free",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100_units": 8.0,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Minnesota",
+        "hq_city": "Minneapolis",
+        "parent_company": "Target Corporation",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Target private label"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-14364963",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-14364963",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Vitamin D3 2000 IU (50 mcg) Bone Health and Immune Support Softgels - 500ct - up&up\u2122",
+      "product_category": "vitamin_d3",
+      "brand": "up&up",
+      "dosage_form": "softgels",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "7 Out Of 5 Stars With 1851 Reviews 1851 5 Questions Size 500 100 500 Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [
+        "2000 IU",
+        "50 mcg"
+      ],
+      "package_count_or_servings": "500ct",
+      "raw_product_name": "Vitamin D3 2000 IU (50 mcg) Bone Health and Immune Support Softgels - 500ct - up&up\u2122",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100_units": 5.0,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Minnesota",
+        "hq_city": "Minneapolis",
+        "parent_company": "Target Corporation",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Target private label"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-91641244",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-91641244",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Nature Made Magnesium 250mg Muscle Bone Nerve and Heart Health Tablets - 100ct",
+      "product_category": "magnesium",
+      "brand": "Nature Made",
+      "dosage_form": "tablets",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "5 Out Of 5 Stars With 83 Reviews 83 5 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [
+        "250mg"
+      ],
+      "package_count_or_servings": "100ct",
+      "raw_product_name": "Nature Made Magnesium 250mg Muscle Bone Nerve and Heart Health Tablets - 100ct",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 22.98,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 38.3,
+          "price_per_serving": 0.77,
+          "serving_size_units": 2
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
+    },
+    {
+      "sku": "FG-target-a-78807251",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-78807251",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Optimum Nutrition Gold Standard 100% Whey Protein Powder - Vanilla Ice Cream - 22 Servings - 24oz",
+      "product_category": "whey_protein",
+      "brand": "Optimum Nutrition",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "vanilla ice cream",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "8 Out Of 5 Stars With 1040 Reviews 1040 12 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "22 Servings",
+      "raw_product_name": "Optimum Nutrition Gold Standard 100% Whey Protein Powder - Vanilla Ice Cream - 22 Servings - 24oz",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 29.97,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 4.41,
+          "price_per_serving": 1.36,
+          "serving_size_g": 31
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Downers Grove",
+        "parent_company": "Glanbia plc",
+        "parent_hq_country": "IE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "UK"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-81806945",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-81806945",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Liquid I.V. Hydration Multiplier Vegan Powder Electrolyte Supplements - Strawberry - 0.56oz each/10ct",
+      "product_category": "electrolyte_drink_mix",
+      "brand": "Liquid I.V.",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "strawberry",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "vegan",
+        "gluten_free",
+        "non_gmo"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "6 Out Of 5 Stars With 767 Reviews 767 9 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "10ct",
+      "raw_product_name": "Liquid I.V. Hydration Multiplier Vegan Powder Electrolyte Supplements - Strawberry - 0.56oz each/10ct",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Vegan",
+        "Gluten Free",
+        "Non-Gmo"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 12.98,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 13.52,
+          "price_per_serving": 2.16,
+          "serving_size_g": 16
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "El Segundo",
+        "parent_company": "Unilever",
+        "parent_hq_country": "GB",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-91641237",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-91641237",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Nature Made Complete Multivitamin Mineral with Iron Nutritional Support Tablets - 130ct",
+      "product_category": "iron",
+      "brand": "Nature Made",
+      "dosage_form": "tablets",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "6 Out Of 5 Stars With 58 Reviews 58 1 Question Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "130ct",
+      "raw_product_name": "Nature Made Complete Multivitamin Mineral with Iron Nutritional Support Tablets - 130ct",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 22.98,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 38.3,
+          "price_per_serving": 0.77,
+          "serving_size_units": 2
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
+    },
+    {
+      "sku": "FG-target-a-14510453",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-14510453",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Vitamin D3 5000 IU (125 mcg) Bone Health and Immune Support Softgels - 100ct - up&up\u2122",
+      "product_category": "vitamin_d3",
+      "brand": "up&up",
+      "dosage_form": "softgels",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "8 Out Of 5 Stars With 1491 Reviews 1491 4 Questions Count 100Ct 100Ct 250Ct Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [
+        "5000 IU",
+        "125 mcg"
+      ],
+      "package_count_or_servings": "100ct",
+      "raw_product_name": "Vitamin D3 5000 IU (125 mcg) Bone Health and Immune Support Softgels - 100ct - up&up\u2122",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100_units": 5.0,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Minnesota",
+        "hq_city": "Minneapolis",
+        "parent_company": "Target Corporation",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Target private label"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-81858337",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-81858337",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Nature Made High Absorption Magnesium Glycinate 200 mg per serving, Magnesium Supplement Capsules - 60ct: Gluten-Free",
+      "product_category": "magnesium_glycinate",
+      "brand": "Nature Made",
+      "dosage_form": "capsules",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "Gluten",
+        "3 Out Of 5 Stars With 864 Reviews 864 22 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [
+        "200 mg"
+      ],
+      "package_count_or_servings": "60ct",
+      "raw_product_name": "Nature Made High Absorption Magnesium Glycinate 200 mg per serving, Magnesium Supplement Capsules - 60ct: Gluten-Free",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten-Free",
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 22.98,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100_units": 38.3,
+          "price_per_serving": 0.77,
+          "serving_size_units": 2
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "California",
+        "hq_city": "West Hills",
+        "parent_company": "Pharmavite LLC (Otsuka Pharmaceutical)",
+        "parent_hq_country": "JP",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": true
+      }
+    },
+    {
+      "sku": "FG-target-a-90043370",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-90043370",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Whey Protein Powder - Vanilla - 32oz - up&up\u2122: 1-Pack, 25g Protein Per Serving",
+      "product_category": "whey_protein",
+      "brand": "up&up",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "vanilla",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "2 Out Of 5 Stars With 336 Reviews 336 9 Questions Size 32Oz 32Oz 5Lb Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [
+        "25G"
+      ],
+      "package_count_or_servings": null,
+      "raw_product_name": "Whey Protein Powder - Vanilla - 32oz - up&up\u2122: 1-Pack, 25g Protein Per Serving",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100g": 4.5,
+          "serving_size_g": 30,
+          "price_per_serving": 1.35
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Minnesota",
+        "hq_city": "Minneapolis",
+        "parent_company": "Target Corporation",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Target private label"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-94285133",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-94285133",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "LMNT Zero-Sugar Electrolytes Drink - Variety Pack - 2.1oz/10ct: Non-Caffeinated Powder with Five Flavors",
+      "product_category": "electrolyte_drink_mix",
+      "brand": "LMNT",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "vegan",
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "6 Out Of 5 Stars With 6708 Reviews 6708 20 Questions Flavor Variety Pack Citrus Grapefruit Lemonade Orange Raspberry Variety Pack Watermelon Count 10Ct 10Ct 3Ct Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "10ct",
+      "raw_product_name": "LMNT Zero-Sugar Electrolytes Drink - Variety Pack - 2.1oz/10ct: Non-Caffeinated Powder with Five Flavors",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Vegan",
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 45.0,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 25.0,
+          "price_per_serving": 1.5,
+          "serving_size_g": 6
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Florida",
+        "hq_city": "Naples",
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "independent",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-1006517338",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-1006517338",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "21st Century High Potency Vitamin D3 1000 IU Tablets for Bone Health and Immune Support, 100 Count",
+      "product_category": "vitamin_d3",
+      "brand": "21st Century",
+      "dosage_form": "tablets",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [],
+      "potency": [
+        "1000 IU"
+      ],
+      "package_count_or_servings": "100 Count",
+      "raw_product_name": "21st Century High Potency Vitamin D3 1000 IU Tablets for Bone Health and Immune Support, 100 Count",
+      "raw_brand": null,
+      "raw_dietary_claims": [],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100_units": 5.0,
+          "serving_size_units": 1
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Arizona",
+        "hq_city": "Tempe",
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "independent",
+        "manufacturing_countries": [
+          "US"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-90430364",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-90430364",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Magnesium Glycinate Dietary Supplements - 200mg Capsule - 60ct - up&up\u2122",
+      "product_category": "magnesium_glycinate",
+      "brand": "up&up",
+      "dosage_form": "capsules",
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "4 Out Of 5 Stars With 225 Reviews 225 10 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [
+        "200mg"
+      ],
+      "package_count_or_servings": "60ct",
+      "raw_product_name": "Magnesium Glycinate Dietary Supplements - 200mg Capsule - 60ct - up&up\u2122",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100_units": 25.0,
+          "serving_size_units": 2
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Minnesota",
+        "hq_city": "Minneapolis",
+        "parent_company": "Target Corporation",
+        "parent_hq_country": "US",
+        "ownership_type": "private_label",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Target private label"
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-83786452",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-83786452",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Optimum Nutrition Gold Standard 100% Whey Protein Powder - Chocolate Peanut Butter - 22 Servings - 25.6oz",
+      "product_category": "whey_protein",
+      "brand": "Optimum Nutrition",
+      "dosage_form": "powder",
+      "target_demographic": "unisex",
+      "flavor": "chocolate peanut butter",
+      "ingredient_signals": [],
+      "dietary_flags": [
+        "gluten_free"
+      ],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [
+        "8 Out Of 5 Stars With 872 Reviews 872 7 Questions Pickup Delivery Shipping Add To Cart Eligible For Registries And Wish Lists Sign In At A Glance Gluten"
+      ],
+      "potency": [],
+      "package_count_or_servings": "22 Servings",
+      "raw_product_name": "Optimum Nutrition Gold Standard 100% Whey Protein Powder - Chocolate Peanut Butter - 22 Servings - 25.6oz",
+      "raw_brand": null,
+      "raw_dietary_claims": [
+        "Gluten Free"
+      ],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": 29.97,
+        "price_source": "web_search",
+        "data_quality": "verified",
+        "normalized": {
+          "price_per_100g": 4.41,
+          "price_per_serving": 1.36,
+          "serving_size_g": 31
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": "Illinois",
+        "hq_city": "Downers Grove",
+        "parent_company": "Glanbia plc",
+        "parent_hq_country": "IE",
+        "ownership_type": "subsidiary",
+        "manufacturing_countries": [
+          "US",
+          "UK"
+        ]
+      },
+      "regulatory_data": {
+        "fda_registered": true,
+        "gmp_certified": true,
+        "usp_verified": false
+      }
+    },
+    {
+      "sku": "FG-target-a-1003257378",
+      "source": "target",
+      "retailer": "target",
+      "url": "https://www.target.com/p/-/A-1003257378",
+      "scrape_success": true,
+      "normalization_status": "standardized",
+      "product_name": "Daily Electrolyte Drink Mix Best Multivitamin Hydration Supplement 6 Electrolyte - 60 Servings By Nature's Nutrition",
+      "product_category": "electrolyte_drink_mix",
+      "brand": null,
+      "dosage_form": null,
+      "target_demographic": "unisex",
+      "flavor": null,
+      "ingredient_signals": [],
+      "dietary_flags": [],
+      "certifications": [],
+      "allergen_contains": [],
+      "allergen_free_from": [],
+      "potency": [],
+      "package_count_or_servings": "60 Servings",
+      "raw_product_name": "Daily Electrolyte Drink Mix Best Multivitamin Hydration Supplement 6 Electrolyte - 60 Servings By Nature's Nutrition",
+      "raw_brand": null,
+      "raw_dietary_claims": [],
+      "raw_ingredients_raw": null,
+      "error_message": null,
+      "pricing": {
+        "price_usd": null,
+        "price_source": "category_estimate",
+        "data_quality": "estimated",
+        "normalized": {
+          "price_per_100g": 15.0,
+          "serving_size_g": 10,
+          "price_per_serving": 1.5
+        }
+      },
+      "company_data": {
+        "hq_country": "US",
+        "hq_state": null,
+        "hq_city": null,
+        "parent_company": null,
+        "parent_hq_country": null,
+        "ownership_type": "unknown",
+        "manufacturing_countries": [
+          "US"
+        ],
+        "notes": "Data not verified"
+      },
+      "regulatory_data": {
+        "fda_registered": null,
+        "gmp_certified": null,
+        "usp_verified": null
+      }
+    }
+  ]
+}
