@@ -15,9 +15,9 @@ const VIEW_LABELS = {
 
 const VIEW_INSIGHTS = {
   'full-chain': [
-    { title: 'Complete Traceability', value: 'All 876 raw materials shown with full supply chain', sub: 'Company → FG → RM → Supplier' },
-    { title: 'Dominant Supplier', value: 'Prinova USA supplies 408 RMs to 60 companies', sub: 'Critical supply chain dependency' },
-    { title: 'Supply Risk', value: '119 raw materials have single-source risk', sub: 'No backup supplier available' },
+    { title: 'Complete Traceability', value: 'All 357 unique raw materials shown with full supply chain', sub: 'Company → FG → RM → Supplier (consolidated from 876)' },
+    { title: 'Dominant Supplier', value: 'Prinova USA supplies materials to 60 companies', sub: 'Critical supply chain dependency' },
+    { title: 'Supply Risk', value: 'Single-source raw materials highlighted in red', sub: 'No backup supplier available' },
     { title: '💰 Pricing Data', value: '33 products with pricing ($2.28-$45.00)', sub: 'Avg price: $21.09 | Click products to see prices' },
   ],
   materials: [
@@ -29,7 +29,7 @@ const VIEW_INSIGHTS = {
   risk: [
     { title: 'Highest Risk', value: 'Orgain whey vanilla: 54% single-source', sub: '7 of 13 materials from one supplier' },
     { title: '💰 Price-Risk Link', value: 'High-risk products avg $29.97 vs $18.97 low-risk', sub: 'Single-source materials may increase costs' },
-    { title: 'Critical RMs', value: '119 raw materials have no backup', sub: 'Single supplier dependency' },
+    { title: 'Critical RMs', value: 'Single-source materials flagged', sub: 'Single supplier dependency' },
     { title: 'Brand Risk', value: 'Optimum Nutrition: 42-44% single-source', sub: 'Multiple products affected' },
   ],
   products: [
@@ -102,9 +102,10 @@ function buildGraphData(data, view) {
       if (rm) {
         const suppliers = data.rm_to_suppliers[rmId] || []
         const usageCount = data.critical_raw_materials.find(([id]) => id === rmId)?.[1] || 1
-        addNode(`rm-${rmId}`, 'RawMaterial', rm.sku.replace(/^RM-/, '').substring(0, 28), {
+        addNode(`rm-${rmId}`, 'RawMaterial', (rm.name || rm.sku.replace(/^RM-/, '')).substring(0, 28), {
           entityId: rmId, sku: rm.sku, usageCount,
           supplierCount: suppliers.length, isSingleSource: suppliers.length === 1,
+          originalCount: rm.original_count || 1,
         })
       }
     })
@@ -146,8 +147,9 @@ function buildGraphData(data, view) {
       const rm = data.raw_materials.find((r) => r.id === rmId)
       if (rm) {
         const suppliers = data.rm_to_suppliers[rmId] || []
-        addNode(`rm-${rmId}`, 'RawMaterial', rm.sku.replace(/^RM-/, '').substring(0, 28), {
+        addNode(`rm-${rmId}`, 'RawMaterial', (rm.name || rm.sku.replace(/^RM-/, '')).substring(0, 28), {
           entityId: rmId, usageCount, supplierCount: suppliers.length, isSingleSource: suppliers.length === 1,
+          originalCount: rm.original_count || 1,
         })
       }
     })
@@ -182,11 +184,11 @@ function buildGraphData(data, view) {
     const supplierCompanyLinks = {}
     Object.entries(data.supplier_to_rms).forEach(([sid, rmIds]) => {
       rmIds.forEach((rmId) => {
-        const rm = data.raw_materials.find((r) => r.id === parseInt(rmId))
-        if (rm) {
-          const key = `${sid}-${rm.company_id}`
+        const companyIds = (data.rm_to_companies || {})[rmId] || []
+        companyIds.forEach((cid) => {
+          const key = `${sid}-${cid}`
           supplierCompanyLinks[key] = (supplierCompanyLinks[key] || 0) + 1
-        }
+        })
       })
     })
 
@@ -269,6 +271,17 @@ function buildDetailsHTML(d, adjacency, allLinks, nodeMap, data) {
   if (d.supplierCount && d.type === 'Company') html += `<div class="detail-card"><div class="label">Suppliers</div><div class="value">${d.supplierCount} suppliers</div></div>`
   if (d.companyCount) html += `<div class="detail-card"><div class="label">Reach</div><div class="value">Serves ${d.companyCount} companies</div></div>`
   if (d.usageCount) html += `<div class="detail-card"><div class="label">Usage</div><div class="value">Used in ${d.usageCount} finished goods</div></div>`
+  if (d.originalCount && d.originalCount > 1) html += `<div class="detail-card"><div class="label">Consolidated</div><div class="value">Merged from ${d.originalCount} company-specific entries</div></div>`
+  if (d.type === 'RawMaterial' && d.entityId && data.rm_to_companies) {
+    const companyIds = data.rm_to_companies[d.entityId] || []
+    if (companyIds.length > 0) {
+      const companyNames = companyIds.map((cid) => {
+        const c = data.companies.find((co) => co.id === cid)
+        return c ? c.name : 'C' + cid
+      })
+      html += `<div class="detail-card"><div class="label">Used By Companies (${companyNames.length})</div><div class="value" style="font-size:10px">${companyNames.join(', ')}</div></div>`
+    }
+  }
   if (d.supplierCount && d.type === 'RawMaterial') {
     const cls = d.isSingleSource ? 'risk-high' : 'risk-low'
     const label = d.isSingleSource ? '⚠️ SINGLE-SOURCE' : `✓ ${d.supplierCount} suppliers`
@@ -471,6 +484,35 @@ export default function KnowledgeGraph() {
     return filterVis.visibleLinks.has(linkId) || filterVis.visibleLinks.has(rev)
   }, [])
 
+  // ─── Update legend counts based on visible (non-dimmed) nodes ───
+  const updateLegendCounts = useCallback(() => {
+    const gs = graphStateRef.current
+    if (!gs.nodeElements) return
+    const counts = {}
+    gs.nodeElements.each(function (d) {
+      const dimmed = d3.select(this).classed('dimmed')
+      if (!dimmed) counts[d.type] = (counts[d.type] || 0) + 1
+    })
+    setLegendItems((prev) => prev.map((item) => ({
+      ...item,
+      count: counts[item.type] ?? 0,
+    })))
+    const visibleNodes = Object.values(counts).reduce((a, b) => a + b, 0)
+    let visibleEdges = 0
+    if (gs.linkElements) {
+      gs.linkElements.each(function () {
+        if (!d3.select(this).classed('dimmed')) visibleEdges++
+      })
+    }
+    const totalNodes = gs.allNodes.length
+    const totalEdges = gs.allLinks.length
+    if (visibleNodes < totalNodes) {
+      setStats(`${visibleNodes} / ${totalNodes} nodes · ${visibleEdges} / ${totalEdges} edges`)
+    } else {
+      setStats(`${totalNodes} nodes · ${totalEdges} edges`)
+    }
+  }, [])
+
   // ─── Apply filter dimming (clears selection first) ───
   const applyFilters = useCallback(() => {
     const gs = graphStateRef.current
@@ -494,7 +536,8 @@ export default function KnowledgeGraph() {
       nodeElements.classed('dimmed', (d) => !filterVis.visibleNodes.has(d.id))
       linkElements.classed('dimmed', (d) => !isLinkFilterVisible(d, filterVis))
     }
-  }, [getFilterVisibility, isLinkFilterVisible])
+    updateLegendCounts()
+  }, [getFilterVisibility, isLinkFilterVisible, updateLegendCounts])
 
   // ─── Clear selection (preserves filter dimming) ───
   const clearSelection = useCallback(() => {
@@ -519,7 +562,8 @@ export default function KnowledgeGraph() {
       gs.nodeElements.classed('dimmed', (d) => !filterVis.visibleNodes.has(d.id))
       gs.linkElements.classed('dimmed', (d) => !isLinkFilterVisible(d, filterVis))
     }
-  }, [getFilterVisibility, isLinkFilterVisible])
+    updateLegendCounts()
+  }, [getFilterVisibility, isLinkFilterVisible, updateLegendCounts])
 
   // ─── Select node (respects filter visibility) ───
   const selectNode = useCallback((d) => {
@@ -563,7 +607,8 @@ export default function KnowledgeGraph() {
         })
       })
     }
-  }, [])
+    updateLegendCounts()
+  }, [updateLegendCounts])
 
   // ─── Render the D3 graph ───
   const renderGraph = useCallback((view) => {
@@ -677,7 +722,7 @@ export default function KnowledgeGraph() {
         let extra = ''
         if (d.type === 'Company') extra = `<div class="tt-extra">${d.fgCount || 0} FGs, ${d.rmCount || 0} RMs, ${d.supplierCount || 0} suppliers</div>`
         if (d.type === 'FinishedGood' && d.riskRatio > 0) extra = `<div class="tt-extra">Risk: ${(d.riskRatio * 100).toFixed(0)}% single-source</div>`
-        if (d.type === 'RawMaterial') extra = `<div class="tt-extra">Used in ${d.usageCount || 0} FGs, ${d.supplierCount || 0} suppliers${d.isSingleSource ? ' ⚠️' : ''}</div>`
+        if (d.type === 'RawMaterial') extra = `<div class="tt-extra">Used in ${d.usageCount || 0} FGs, ${d.supplierCount || 0} suppliers${d.isSingleSource ? ' ⚠️' : ''}${d.originalCount > 1 ? ' (merged from ' + d.originalCount + ' entries)' : ''}</div>`
         if (d.type === 'Supplier') extra = `<div class="tt-extra">${d.rmCount || 0} RMs → ${d.fgCount || 0} FGs → ${d.companyCount || 0} companies</div>`
         if (d.category) extra += `<div class="tt-extra">Category: ${d.category.replace(/_/g, ' ')}</div>`
         tooltip.style('opacity', 1)
@@ -746,7 +791,7 @@ export default function KnowledgeGraph() {
 
   // ─── Load data on mount ───
   useEffect(() => {
-    fetch('/new-graph/comprehensive_supply_chain.json')
+    fetch('/new-graph/comprehensive_supply_chain_simplified.json')
       .then((r) => r.json())
       .then((data) => {
         graphStateRef.current.data = data
@@ -767,7 +812,7 @@ export default function KnowledgeGraph() {
           const label = meta.product_name || fg.sku
           return { id: fg.id, label }
         }).sort((a, b) => a.label.localeCompare(b.label)))
-        setRmOptions(data.raw_materials.map((rm) => ({ id: rm.id, label: rm.sku })).sort((a, b) => a.label.localeCompare(b.label)))
+        setRmOptions(data.raw_materials.map((rm) => ({ id: rm.id, label: rm.name || rm.sku })).sort((a, b) => a.label.localeCompare(b.label)))
         setDataLoaded(true)
       })
   }, [])
@@ -808,7 +853,8 @@ export default function KnowledgeGraph() {
     gs.nodeElements.classed('search-match', (d) => matchesSearch(d) && isNodeVisible(d.id))
     gs.nodeElements.classed('dimmed', (d) => !isNodeVisible(d.id) || !matchesSearch(d))
     gs.linkElements.classed('highlighted', false).classed('dimmed', true).attr('stroke-opacity', 0.02)
-  }, [clearSelection, getFilterVisibility])
+    updateLegendCounts()
+  }, [clearSelection, getFilterVisibility, updateLegendCounts])
 
   // ─── Filter handlers ───
   const handleCompanyFilter = useCallback((next) => {
