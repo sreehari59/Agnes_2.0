@@ -21,8 +21,8 @@ function ScoreRing({ score, size = 48 }) {
   return (
     <div style={{ position: 'relative', width: size, height: size, flexShrink: 0 }}>
       <svg width={size} height={size} style={{ transform: 'rotate(-90deg)' }}>
-        <circle cx={size/2} cy={size/2} r={r} fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="3" />
-        <circle cx={size/2} cy={size/2} r={r} fill="none" stroke={color} strokeWidth="3"
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="3" />
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke={color} strokeWidth="3"
           strokeDasharray={circ} strokeDashoffset={offset} strokeLinecap="round"
           style={{ transition: 'stroke-dashoffset 0.8s cubic-bezier(0.4,0,0.2,1)' }} />
       </svg>
@@ -391,7 +391,7 @@ export default function RecommendationsView() {
 
   return (
     <div>
-      <h1 style={{ marginBottom: '0.5rem' }}>Substitution Recommendations</h1>
+      <h1 style={{ marginBottom: '0.5rem' }}>Recommendation Engine</h1>
       <p style={{ color: 'var(--text-dim)', fontSize: '0.9375rem', marginBottom: '2rem' }}>
         AI-powered ingredient substitution analysis across your supply chain
       </p>

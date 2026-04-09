@@ -690,6 +690,10 @@ export default function KnowledgeGraph() {
     const zoomBehavior = d3.zoom().scaleExtent([0.05, 10]).on('zoom', (e) => g.attr('transform', e.transform))
     svg.call(zoomBehavior)
 
+    // Set initial zoom out
+    const initialTransform = d3.zoomIdentity.translate(w / 2, h / 2).scale(0.4).translate(-w / 2, -h / 2)
+    svg.call(zoomBehavior.transform, initialTransform)
+
     // Store zoom for controls
     gs.zoomBehavior = zoomBehavior
 

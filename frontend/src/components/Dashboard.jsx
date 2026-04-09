@@ -167,6 +167,7 @@ export default function Dashboard({ onSelectCompany }) {
   const [topRecs, setTopRecs] = useState([])
   const [recFilter, setRecFilter] = useState('all')
   const [recLimit, setRecLimit] = useState(10)
+  const [recsOpen, setRecsOpen] = useState(false)
 
   useEffect(() => {
     fetch(`${API_BASE}/graph/stats`)
@@ -222,10 +223,13 @@ export default function Dashboard({ onSelectCompany }) {
       </div>
 
       <div className="card">
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem', marginBottom: '1.5rem' }}>
-          <h2 style={{ marginBottom: 0 }}>🎯 Top Substitution Recommendations</h2>
-          {topRecs.length > 0 && (
-            <div style={{ display: 'flex', gap: '0.375rem', flexWrap: 'wrap' }}>
+        <div
+          style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem', marginBottom: recsOpen ? '1.5rem' : 0, cursor: 'pointer' }}
+          onClick={() => setRecsOpen(o => !o)}
+        >
+          <h2 style={{ marginBottom: 0 }}>🎯 Top Substitution Recommendations <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)', marginLeft: '0.5rem' }}>{recsOpen ? '▲' : '▼'}</span></h2>
+          {recsOpen && topRecs.length > 0 && (
+            <div style={{ display: 'flex', gap: '0.375rem', flexWrap: 'wrap' }} onClick={e => e.stopPropagation()}>
               {['all', ...Array.from(new Set(topRecs.map(r => r.functional_role))).sort()].map(role => (
                 <button
                   key={role}
@@ -247,7 +251,7 @@ export default function Dashboard({ onSelectCompany }) {
           )}
         </div>
 
-        {topRecs.length > 0 ? (() => {
+        {recsOpen && topRecs.length > 0 ? (() => {
           const filtered = recFilter === 'all' ? topRecs : topRecs.filter(r => r.functional_role === recFilter)
           const visible = filtered.slice(0, recLimit)
           return (
@@ -293,13 +297,13 @@ export default function Dashboard({ onSelectCompany }) {
               )}
             </>
           )
-        })() : (
+        })() : recsOpen ? (
           <div style={{ textAlign: 'center', padding: '3rem 2rem', color: 'var(--text-muted)' }}>
             <div style={{ fontSize: '3rem', marginBottom: '1rem', opacity: 0.5 }}>📊</div>
             <p style={{ fontWeight: 600, marginBottom: '0.5rem' }}>No recommendations available yet</p>
             <p style={{ fontSize: '0.8125rem', color: 'var(--text-dim)' }}>Run the recommendation pipeline to generate substitution candidates.</p>
           </div>
-        )}
+        ) : null}
       </div>
 
       {risks && (
